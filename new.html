@@ -1,0 +1,473 @@
+<style>
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+    
+    .product-container {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .product-wrapper {
+      background-color: rgba(254, 253, 247, 1);
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .announcement-bar {
+      background-color: rgba(243, 233, 216, 1);
+      align-self: stretch;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: start;
+      color: rgba(0, 0, 0, 1);
+      text-align: center;
+      padding: 10px 70px 19px;
+    }
+    
+    .announcement-content {
+      display: flex;
+      width: 1238px;
+      max-width: 100%;
+      align-items: start;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .back-button {
+      font: 400 36px Gabarito, sans-serif;
+    }
+    
+    .announcement-text {
+      margin-top: 12px;
+      font: 600 24px Myriad Pro, sans-serif;
+    }
+    
+    .header {
+      background-color: rgba(254, 253, 247, 1);
+      align-self: stretch;
+      display: flex;
+      width: 100%;
+      gap: 40px 100px;
+      flex-wrap: wrap;
+      padding: 0 80px;
+    }
+    
+    .nav-container {
+      display: flex;
+      flex-direction: column;
+      color: rgba(0, 0, 0, 1);
+      font: 400 24px Myriad Pro, sans-serif;
+    }
+    
+    .logo {
+      aspect-ratio: 2.64;
+      object-fit: contain;
+      object-position: center;
+      width: 383px;
+      align-self: center;
+      margin-left: 31px;
+      max-width: 100%;
+    }
+    
+    .nav-divider {
+      height: 1px;
+      border: 1px solid rgba(253, 231, 193, 1);
+    }
+    
+    .nav-links {
+      align-self: center;
+      display: flex;
+      margin-top: 27px;
+      width: 1024px;
+      max-width: 100%;
+      gap: 40px 79px;
+    }
+    
+    .nav-link {
+      color: rgba(0, 0, 0, 1);
+      text-decoration: none;
+    }
+    
+    .nav-link.active {
+      color: rgba(9, 72, 37, 1);
+      font-weight: 700;
+    }
+    
+    .nav-link-launch {
+      flex-grow: 1;
+      width: 127px;
+    }
+    
+    .nav-link-about {
+      flex-grow: 1;
+      width: 94px;
+    }
+    
+    .social-icons {
+      align-self: start;
+      display: flex;
+      margin-top: 51px;
+      gap: 18px;
+    }
+    
+    .social-icon {
+      aspect-ratio: 1.09;
+      object-fit: contain;
+      object-position: center;
+      width: 48px;
+    }
+    
+    .product-detail {
+      align-self: end;
+      display: flex;
+      width: 100%;
+      max-width: 1748px;
+      flex-direction: column;
+      margin: 95px 46px 0 0;
+    }
+    
+    .product-gallery {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .gallery-main {
+      width: 41%;
+    }
+    
+    .gallery-main-image {
+      aspect-ratio: 0.78;
+      object-fit: contain;
+      object-position: center;
+      width: 100%;
+      border-radius: 15px;
+    }
+    
+    .gallery-thumbnails {
+      display: flex;
+      margin-top: 18px;
+      gap: 20px;
+    }
+    
+    .thumbnail {
+      aspect-ratio: 0.94;
+      object-fit: contain;
+      object-position: center;
+      width: 33%;
+      border-radius: 20px;
+    }
+    
+    .product-info {
+      width: 59%;
+      padding: 57px 38px;
+      border-radius: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.29);
+    }
+    
+    .product-title {
+      color: rgba(0, 0, 0, 1);
+      font: 400 60px Myriad Pro, sans-serif;
+    }
+    
+    .rating {
+      display: flex;
+      margin-top: 12px;
+      gap: 16px;
+      align-items: center;
+    }
+    
+    .rating-stars {
+      display: flex;
+      gap: 1px;
+    }
+    
+    .star-icon {
+      aspect-ratio: 1;
+      width: 21px;
+    }
+    
+    .rating-count {
+      color: rgba(2, 2, 2, 1);
+      font: 600 16px Myriad Pro, sans-serif;
+    }
+    
+    .product-tagline {
+      color: rgba(0, 0, 0, 1);
+      margin-top: 66px;
+      font: 600 36px Myriad Pro, sans-serif;
+    }
+    
+    .product-benefits {
+      color: rgba(82, 126, 62, 1);
+      text-align: center;
+      margin-top: 15px;
+      font: 400 32px Myriad Pro, sans-serif;
+    }
+    
+    .price-container {
+      display: flex;
+      margin: 41px 0 0 10px;
+      gap: 43px;
+      align-items: center;
+    }
+    
+    .price {
+      display: flex;
+      gap: 13px;
+      align-items: baseline;
+    }
+    
+    .current-price {
+      font: 700 48px Myriad Pro, sans-serif;
+      color: rgba(0, 0, 0, 1);
+    }
+    
+    .original-price {
+      font: 400 32px Myriad Pro, sans-serif;
+      color: rgba(0, 0, 0, 1);
+      text-decoration: line-through;
+    }
+    
+    .savings {
+      color: rgba(254, 133, 76, 1);
+      font: 700 28px Myriad Pro, sans-serif;
+    }
+    
+    .tax-note {
+      color: rgba(0, 0, 0, 1);
+      text-align: center;
+      margin-top: 21px;
+      font: 600 24px Myriad Pro, sans-serif;
+    }
+    
+    .quantity-label {
+      color: rgba(0, 0, 0, 1);
+      margin-top: 63px;
+      font: 600 36px Myriad Pro, sans-serif;
+    }
+    
+    .quantity-options {
+      display: flex;
+      margin-top: 13px;
+      gap: 20px;
+    }
+    
+    .quantity-option {
+      flex: 1;
+      border-radius: 20px;
+      padding: 12px;
+      text-align: center;
+      border: 2px solid rgba(199, 189, 189, 1);
+    }
+    
+    .quantity-option.selected {
+      border-color: rgba(82, 126, 62, 1);
+    }
+    
+    .quantity-option-image {
+      aspect-ratio: 0.78;
+      width: 109px;
+    }
+    
+    .quantity-option-text {
+      font: 400 32px Myriad Pro, sans-serif;
+      margin-top: 15px;
+    }
+    
+    .quantity-option-price {
+      font: 400 24px Myriad Pro, sans-serif;
+      margin-top: 6px;
+    }
+    
+    .quantity-option-total {
+      background-color: rgba(199, 189, 189, 1);
+      border-radius: 0 0 20px 20px;
+      font: 700 36px Myriad Pro, sans-serif;
+      padding: 9px 0;
+      margin-top: 9px;
+    }
+    
+    .quantity-option.selected .quantity-option-total {
+      background-color: rgba(82, 126, 62, 1);
+      color: rgba(255, 255, 255, 1);
+    }
+    
+    .add-to-cart-container {
+      display: flex;
+      margin-top: 111px;
+      gap: 50px;
+      align-items: center;
+    }
+    
+    .quantity-selector {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 1px solid rgba(0, 0, 0, 1);
+      border-radius: 40px;
+      padding: 15px 70px;
+      font: 600 36px Myriad Pro, sans-serif;
+    }
+    
+    .quantity-button {
+      color: rgba(115, 110, 110, 1);
+      cursor: pointer;
+    }
+    
+    .add-to-cart-button {
+      background-color: rgba(82, 126, 62, 1);
+      color: rgba(255, 255, 255, 1);
+      border-radius: 40px;
+      padding: 15px 70px;
+      font: 600 36px Myriad Pro, sans-serif;
+      border: none;
+      cursor: pointer;
+    }
+    
+    @media (max-width: 991px) {
+      .announcement-bar {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    
+      .announcement-text {
+        max-width: 100%;
+      }
+    
+      .header {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    
+      .nav-container {
+        max-width: 100%;
+      }
+    
+      .nav-divider {
+        max-width: 100%;
+      }
+    
+      .social-icons {
+        margin-top: 40px;
+      }
+    
+      .product-detail {
+        max-width: 100%;
+        margin: 40px 10px 0 0;
+      }
+    
+      .product-gallery {
+        flex-direction: column;
+      }
+    
+      .gallery-main {
+        width: 100%;
+      }
+    
+      .product-info {
+        width: 100%;
+        margin-top: 40px;
+        padding: 20px;
+      }
+    
+      .product-title {
+        font-size: 40px;
+      }
+    
+      .quantity-options {
+        flex-direction: column;
+      }
+    
+      .quantity-option {
+        width: 100%;
+      }
+    
+      .add-to-cart-container {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 20px;
+      }
+    
+      .quantity-selector,
+      .add-to-cart-button {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+      }
+    }
+    </style>
+    
+    <div class="product-container">
+      <div class="product-wrapper">
+        <div class="announcement-bar">
+          <div class="announcement-content">
+            <button class="back-button" aria-label="Go back">&lt;</button>
+            <div class="announcement-text">
+              www.msnaturalproducts.com Now Changed to
+              <span class="highlight">www.msnaturalproduct.com</span>
+            </div>
+          </div>
+        </div>
+    
+        <header class="header">
+          <nav class="nav-container">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/682a7b7df52c692c0fce270f727642e0470d9864cf1f92f2c272f966fac15281?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="MS Natural Products Logo" class="logo">
+            <div class="nav-divider"></div>
+            <div class="nav-links">
+              <a href="#" class="nav-link active">HOME</a>
+              <a href="#" class="nav-link">HAIR</a>
+              <a href="#" class="nav-link">SKIN</a>
+              <a href="#" class="nav-link">FACE</a>
+              <a href="#" class="nav-link nav-link-launch">NEW LAUNCH</a>
+              <a href="#" class="nav-link nav-link-about">ABOUT US</a>
+              <a href="#" class="nav-link">BLOG</a>
+            </div>
+            <div class="nav-divider"></div>
+          </nav>
+          
+          <div class="social-icons">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/4e2630f1dbb610a4ab1fc316581e64dcc33764eef2af565028431dac1875f713?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="Facebook" class="social-icon">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/37498a95ff1b0066e5b6f69566d77e4cffcb84190168830f8723a44cafa253d8?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="Instagram" class="social-icon">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/513d097681113852c114f77a4fffb99ef826a106dfe13760a6aa0d86efc9965c?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="Twitter" class="social-icon">
+          </div>
+        </header>
+    
+        <main class="product-detail">
+          <div class="product-gallery">
+            <div class="gallery-main">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/54dd53189ad4d40ad15b9697313c1a821dee5eec569f4cb1a7b4086c835f5e1c?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="Hair Care Oil Main Image" class="gallery-main-image">
+              <div class="gallery-thumbnails">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/55e2eef3d4ef28404122d6aa4f90a2ae075db0944041d0e3756cbf9238e0b07e?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="Hair Care Oil Thumbnail 1" class="thumbnail">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d3a9278322601f96856b73d1c024f6ca56c6f04c69fee87c5fb2a495aa4a082f?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="Hair Care Oil Thumbnail 2" class="thumbnail">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/15cc392ba363f6a11b2d042e3c0f79b5627c4241d277ebb675430efe92aaa8f7?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="Hair Care Oil Thumbnail 3" class="thumbnail">
+              </div>
+            </div>
+    
+            <div class="product-info">
+              <h1 class="product-title">Hair Care Oil</h1>
+              
+              <div class="rating">
+                <div class="rating-stars">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1def721cbf23ab7827966e181305fa03182112096c2553e0ed805f651af6cea7?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="" class="star-icon">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1def721cbf23ab7827966e181305fa03182112096c2553e0ed805f651af6cea7?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="" class="star-icon">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1def721cbf23ab7827966e181305fa03182112096c2553e0ed805f651af6cea7?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="" class="star-icon">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1def721cbf23ab7827966e181305fa03182112096c2553e0ed805f651af6cea7?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="" class="star-icon">
+                  <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1def721cbf23ab7827966e181305fa03182112096c2553e0ed805f651af6cea7?placeholderIfAbsent=true&apiKey=e474227625b94ae780528b29904ace26" alt="" class="star-icon">
+                </div>
+                <span class="rating-count">4.7 (39 Reviews)</span>
+              </div>
+    
+              <h2 class="product

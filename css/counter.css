@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'QB One Semi Bold';
+    src: url('/fonts/BoxTube\ Labs\ -\ QB\ One\ SemiBold.ttf') format('truetype');
+
+    font-style: normal;
+}
+
+.countup-container {
+    display: flex;
+    gap: 30px;
+    /* width: 100%; */
+    flex-wrap: wrap;
+
+
+}
+
+.countup {
+    position: relative;
+    color: #91C440;
+    border-left: 3px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 16px;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add styles for the plus sign */
+.plus-sign {
+    color: #91C440;
+    /* Green color for the plus sign */
+}
+
+/* Animation effect for counting */
+.count {
+    display: flex;
+    animation: countAnimation 0.8s ease-in-out forwards;
+    font-family: 'QB One Semi Bold';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    width: 200px;
+    /* padding-left: 16px; */
+}
+
+@keyframes countAnimation {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Container styles */
+.full-link_container {
+    display: flex;
+}
+
+.full-link_item_wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.full-link_display_image {
+    width: 60%;
+}
+
+/* Item styles */
+.full-link_item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(81, 32, 11, 1);
+
+}
+
+/* Hover effect */
+.full-link_item:hover {
+    /* transform: scale(1.05); */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
+}
+
+/* Icon styles */
+.full-link_icon_wrapper {
+    transition: transform 0.3s ease;
+    border: 2px solid rgba(216, 216, 216, 1);
+}
+
+img.full-link_icon {
+    width: 50px;
+}
+
+/* Title styles */
+.full-link_item_title {
+
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    transition: color 0.3s;
+    margin-left: 10px;
+}
+
+.full-link_item:hover .full-link_item_title {
+    /* color: #0073e6; */
+}
+
+ul.full-link_item_wrapper {
+    padding-left: 0px;
+}
+
+/* Description styles */
+.full-link_item_desc {
+    color: #666;
+    margin-left: 10px;
+    transition: opacity 0.3s ease-in-out;
+    display: none
+        /* Hide all descriptions by default */
+}
+
+.full-link_item:hover img.full-link_icon {
+    /* background: rgba(255, 239, 229, 1); */
+
+}
+
+/* Show the first item's description by default */
+/* .full-link_item:first-child .full-link_item_desc {
+    opacity: 1;
+} */
+
+/* Show description on hover for other items */
+.full-link_item:hover .full-link_item_desc {
+    display: block;
+}
+
+.full-link_display_image img {
+    width: 100%;
+}

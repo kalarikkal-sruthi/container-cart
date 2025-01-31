@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'QB One Semi Bold';
+    src: url('/fonts/BoxTube\ Labs\ -\ QB\ One\ SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.section-wrapper {
+    width: 100%;
+}
+
+.section {
+    padding: 20px;
+    min-height: 100vh;
+    background: lightblue;
+    border: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: transform 0.3s ease-in-out, background 0.3s ease;
+    /* Smooth transition */
+}
+
+.section.non-sticky {
+    transform: translateY(0);
+    /* Smooth transition effect */
+    background: #f0f0f0;
+    /* Optional visual effect */
+}
+
+.section img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.section-sub-head {
+    position: absolute;
+    /* left: 40%; */
+    bottom: 25%;
+}
+
+.section-sub-head-h1 h1 {
+    color: white;
+    font-family: 'QB One Semi Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}

@@ -1,0 +1,355 @@
+@media (max-width: 768px) {
+ 
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+   
+    body {
+      font-size: 12px;
+    }
+  }
+  
+  
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .actions {
+      align-items: center;
+    }
+  
+    .menu {
+      justify-content: center;
+    }
+  
+    .left-section {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .menu {
+      margin-top: 40px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .search-input {
+      /* width: 100%; */
+      padding-right: 60px;
+    }
+  
+    .camera-icon {
+      top: 20%;
+      right: 5px;
+    }
+  
+    .search-btn {
+      padding: 5px 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .search-input-container {
+      flex-direction: column;
+    }
+  
+    .search-input,
+    .search-btn {
+      /* width: 100%; */
+      max-width: 370px;
+    }
+  
+    .search-input,
+    .search-btn {
+      /* width: 100%; */
+      max-width: 350px;
+    }
+  
+    .search-btn {
+      position: static;
+      margin-top: 5px;
+      transform: none;
+    }
+  }
+  
+  
+  @media (max-width: 576px) {
+    .feature-box {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .main-heading {
+      font-size: 1.9rem;
+    }
+  
+    .home-content1 {
+      padding: 10px 15px;
+    }
+  
+    .ali-text {
+      font-size: 12px;
+    }
+  
+    .search-bar {
+      flex-direction: column;
+    }
+  
+    .search-bar input[type="text"] {
+      margin-bottom: 10px;
+    }
+  
+    .search-bar button {
+      width: 100%;
+    }
+  
+    .frequently-searched {
+      font-size: 12px;
+    }
+  
+    .frequently-searched-one {
+      font-size: 12px;
+  
+    }
+  
+    .frequently-searched .badge {
+      padding: 3px 8px;
+      font-size: 12px;
+    }
+  
+    .frequently-searched .frequently-one {
+      padding: 3px 8px;
+      font-size: 12px;
+    }
+  
+    .carosel-head2 {
+  
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center !important;
+    }
+  
+    .carosel-head h3 {
+      margin-left: 0px !important;
+    }
+  
+    .carosel-head2 h3::before {
+      left: -15px !important;
+    }
+  
+    .carosel-head2 h3 {
+      padding-left: 0px !important;
+    }
+  
+    .product-text {
+      text-align: start !important;
+      margin-left: 10px !important;
+    }
+  }
+  
+  
+  @media (min-width: 360px) and (max-width: 576px) {
+    .menu {
+      display: none !important;
+    }
+  
+    .actions {
+      display: none !important;
+    }
+  
+    .main-header {
+      padding: 10px !important;
+    }
+  
+    .navbar {
+      display: block !important;
+      border-bottom: none !important;
+    }
+  
+    .mobile-menu-icon {
+      display: block !important;
+    }
+  
+    .left-section {
+      display: flex !important;
+      justify-content: space-between !important;
+    }
+  
+    .carosel-head {
+      padding: 30px 0px;
+    }
+  
+    .card-container2 {
+      padding: 30px 0px;
+    }
+  
+    .grid-section {
+      padding: 30px 0px;
+    }
+  
+    .benefit-section {
+      height: auto;
+  
+    }
+  
+    .social-medias {
+      justify-content: center;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card-grid {
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)) !important;
+    }
+  
+    .grid {
+      gap: 10px !important;
+    }
+  
+    .card.wide-card {
+      grid-column: span 1 !important;
+    }
+  
+    .card.tall-card {
+      grid-row: span 1 !important;
+    }
+  
+    .grid-section .container {
+      padding: 10px !important;
+      margin: 0 !important;
+      max-width: 98% !important;
+    }
+  
+    .carosel-head h3 {
+      margin-left: 30px !important;
+    }
+  
+    .carosel-head2 h3::before {
+      left: -15px !important;
+  
+    }
+  
+    .carosel-head2 h3 {
+      padding-left: 0px !important;
+    }
+  
+    .product-text {
+      text-align: start !important;
+      margin-left: 10px !important;
+  
+    }
+  
+    .benefit-section h3 {
+      margin-left: 20px !important;
+    }
+  }
+  
+  
+  @media screen and (max-width: 915px) {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .benefit-section .container {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+  
+    .logistic-container {
+      padding-left: 0px !important;
+    }
+  
+    .new-customers {
+      padding: 10px !important;
+    }
+  
+    .logistic-section {
+      padding: 30px !important;
+    }
+  
+    .benefit-card-main {
+      padding: 20px !important;
+    }
+  
+    .seller-text {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding-left: 45px !important;
+      padding-right: 15px !important;
+  
+    }
+  
+    .empower-card-item3 p {
+      padding-left: 0px !important;
+    }
+  
+    .empower-card-item3 h6 {
+      padding-left: 0px !important;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .col-lg-6 h3 {
+      font-size: 1.9rem;
+    }
+  
+    .benefits-list li {
+      flex-direction: column;
+      align-items: flex-start;
+  
+  
+    }
+  
+    .icon-container {
+      margin-bottom: 10px;
+    }
+  
+    .testimonial-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .testimonial-section-img {
+      margin-right: 10px;
+    }
+  
+    .testimonial-carousel {
+      margin-top: 30px;
+      width: 98vw !important;
+    }
+  
+    .testimonial-img {
+      width: 80vw !important;
+      margin-right: 0px !important;
+    }
+  
+    .empower-cards {
+      padding: 0px !important;
+    }
+  
+    .form-section {
+      height: 95vh !important;
+    }
+  
+    .footer {
+      text-align: center !important;
+      padding: 60px 0px;
+      /* padding-left: 40px !important; */
+    }
+  
+    .footer img {
+      width: 60% !important;
+    }
+  }
