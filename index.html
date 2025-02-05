@@ -47,11 +47,11 @@
                   <!--<div class="menu">
                      </div>-->
                </div>
-               <div class="top-search-bar position-relative" id="top-search-bar">
+               <!-- <div class="top-search-bar position-relative" id="top-search-bar">
                   <img src="Images/images-main/header/camera.png" class="camera-icon">
                   <input type="text" placeholder="leopard panties" class=" flex-grow-1">
                   <button class="btn search-btn"> <img src="Images/images-main/header/Icon.png" alt=""> Search</button>
-               </div>
+               </div> -->
                <!-- <div class="top-search-bar" id="top-search-bar">
                   <input type="text" placeholder="Search" />
                   <button>Search</button>
@@ -82,9 +82,31 @@
                      <a href="#" class="menu-item">Become a supplier</a>
                   </div>
                </div>
-               <div class="mobile-menu-icon">
+               <div class="mobile-menu-icon open-btn"  onclick="openBox()">
                   <img src="Images/images-main/header/icon-category.png" alt="">
                </div>
+
+               <div class="slide-box" id="slideBox">
+                  <button class="close-btn" onclick="closeBox()">×</button>
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="mobile-links">
+                              <ul>
+                                 <li><a href="">All categories</a></li>
+                                 <li><a href="">Featured selections</a></li>
+                                 <li><a href="">Trade Assurance</a></li>
+                                 <li><a href="">Buyer Central</a></li>
+                                 <li><a href="">Help Center</a></li>
+                                 <li><a href="">Get the app</a></li>
+                                 <li><a href="">Become a supplier</a></li>
+                              </ul>
+                           </div>
+                          
+                        </div>
+                     </div>
+                  </div>
+              </div>
             </header>
           
          </div>
@@ -1226,5 +1248,15 @@
   }
             });
           </script>
+
+<script>
+   function openBox() {
+       document.getElementById("slideBox").classList.add("active");
+   }
+
+   function closeBox() {
+       document.getElementById("slideBox").classList.remove("active");
+   }
+</script>
    </body>
 </html>

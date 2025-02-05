@@ -12,7 +12,10 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-
+.row{
+  margin: 0;
+  padding: 0;
+}
 /* Navbar Styling */
 body {}
 
@@ -372,9 +375,16 @@ body.scroll .parallax::before {
 }
 
 .frequently-searched {
-  display: flex;
-  justify-content: start;
-  align-items: center;
+  display: flex
+;
+    justify-content: start;
+    align-items: center;
+    background: #000000ba;
+    max-width: 630px;
+    height: 42px;
+    padding: 10px 14px;
+   
+
 }
 
 .search-input-container {
@@ -443,7 +453,8 @@ body.scroll .parallax::before {
 }
 
 .transparent-badge {
-  background-color: transparent !important;
+  /* background-color: #91c440; */
+  /* background-color: transparent !important; */
   color: white;
   border: 1px solid #ffffff80;
   padding: 6px 24px !important;
@@ -1086,7 +1097,7 @@ html {
 .grid-item img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
   padding: 10px;
 }
 
@@ -2317,3 +2328,66 @@ img.drop-img {
     border-radius: 30px;
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.12);
 }
+
+
+
+
+.container {
+  position: relative;
+  /* padding: 20px; */
+}
+
+/* Button to trigger the box */
+.open-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+ 
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Box that slides in */
+.slide-box {
+  position: fixed;
+  top: 0px;
+  left: -300px; /* Initially hidden */
+  width: 200px;
+  height: 100%;
+  background-color: #f8f9fa;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: left 0.5s ease-in-out;
+  /* border-radius: 5px; */
+}
+
+/* When active, box moves in */
+.slide-box.active {
+  left: 00px;
+  top: 0px;
+}
+
+/* Close button */
+.close-btn {
+  background-color: #91C440;
+  color: white;
+  border: none;
+  padding: 2px 8px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+}
+
+.mobile-links ul {
+  padding-left: 0px;
+}
+.mobile-links ul li {
+list-style-type: none;
+}
+.mobile-links ul li  a{
+color: black;
+font-size: 12px;
+  }
