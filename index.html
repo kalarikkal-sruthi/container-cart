@@ -1,319 +1,621 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>CONTAINER KART</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-      <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CONTAINER KART</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-      <link rel="stylesheet" href="css/home.css">
-      <link rel="stylesheet" href="css/counter.css">
-      <link rel="stylesheet" href="css/slider.css">
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-      <link rel="stylesheet" href="css/responsive.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link
-         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mr+Dafoe&display=swap"
-         rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link
-         href="https://fonts.googleapis.com/css2?family=Electrolize&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-         rel="stylesheet">
-   </head>
-   <body>
-      <div class="main-header">
+   <link rel="stylesheet" href="css/home.css">
+   <link rel="stylesheet" href="css/counter.css">
+   <link rel="stylesheet" href="css/slider.css">
+   <link rel="stylesheet" href="css/home-main.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mr+Dafoe&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+   <section>
+      <div class="header-main">
          <div class="container">
-            <!-- Navbar Structure -->
-            <header class="navbar">
-               <div class="left-section">
-                  <div class="logo">
-                     <img src="Images/images-main/header/logo-main.png" alt="Logo">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="header-img">
+                     <img src="Images/header/Logo.png" alt="">
                   </div>
-                  
-                  <!--<div class="menu">
-                     </div>-->
+
                </div>
-               <!-- <div class="top-search-bar position-relative" id="top-search-bar">
-                  <img src="Images/images-main/header/camera.png" class="camera-icon">
-                  <input type="text" placeholder="leopard panties" class=" flex-grow-1">
-                  <button class="btn search-btn"> <img src="Images/images-main/header/Icon.png" alt=""> Search</button>
-               </div> -->
-               <!-- <div class="top-search-bar" id="top-search-bar">
-                  <input type="text" placeholder="Search" />
-                  <button>Search</button>
-                  </div> -->
-               <!-- Right Section: Actions -->
-               <div class="actions">
-                  <div class="action-row">
-                     <div class="dropdown">
-                        <p class="dropdown-label">Deliver to</p>
-                        <span class="dropdown-content"><img class="drop-img" src="Images/images-main/header/us.png.png" alt=""> US</span>
-                     </div>
-                     <div class="dropdown">
-                        <p class="dropdown-label"></p>
-                        <span class="dropdown-content"><img class="drop-img" src="Images/images-main/header/icon-global.png" alt="">
-                        English-USD</span>
-                     </div>
-                     <a href="#" class="sign-in"> <img class="drop-img" src="Images/images-main/header/icon-customer.png" alt="">Sign in</a>
-                     <button class="sign-up">Sign up</button>
+               <div class="col-md-6 m-auto">
+                  <div class="header-menu">
+                     <img src="Images/header/Group 3.png" alt="">
                   </div>
-                  <div class="action-row2">
-                     <a href="" class="menu-item"> <img src="Images/images-main/header/icon-category.png" alt=""></a>
-                     <a href="#" class="menu-item">All categories</a>
-                     <a href="#" class="menu-item">Featured selections</a>
-                     <a href="#" class="menu-item">Trade Assurance</a>
-                     <a href="#" class="menu-item">Buyer Central</a>
-                     <a href="#" class="menu-item">Help Center</a>
-                     <a href="#" class="menu-item">Get the app</a>
-                     <a href="#" class="menu-item">Become a supplier</a>
-                  </div>
-               </div>
-               <div class="mobile-menu-icon open-btn"  onclick="openBox()">
-                  <img src="Images/images-main/header/icon-category.png" alt="">
+
                </div>
 
-               <div class="slide-box" id="slideBox">
-                  <button class="close-btn" onclick="closeBox()">×</button>
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="mobile-links">
-                              <ul>
-                                 <li><a href="">All categories</a></li>
-                                 <li><a href="">Featured selections</a></li>
-                                 <li><a href="">Trade Assurance</a></li>
-                                 <li><a href="">Buyer Central</a></li>
-                                 <li><a href="">Help Center</a></li>
-                                 <li><a href="">Get the app</a></li>
-                                 <li><a href="">Become a supplier</a></li>
-                              </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section>
+      <div class="sub-main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="sub-main-content">
+                     <h1>Revolutionizing
+                        Global Food Trade</h1>
+                     <p>ContainerKart is a global B2B marketplace revolutionizing bulk food procurement by connecting
+                        manufacturers wholesalers, and retailers. We specialize in container-level trading, enabling
+                        businesses to purchase highquality food products in large quantities at competitive prices.</p>
+                  </div>
+
+               </div>
+               <div class="col-md-6 mt-auto">
+                  <div class="sub-main-buttons">
+                     <a href=""><button class="global-search">Global Network</button></a>
+                     <a href=""><button class="trusted-partner">Trusted Partner</button></a>
+                     <a href=""><button class="efficient-logistics">Efficient Logistics</button></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+   </section>
+
+
+   <section>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="heading">
+                  <h1>Our Process</h1>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="uae-visa-para-main">
+                  <div class="horizontal-line">
+                  </div>
+                  <div class="counter-main-div">
+                     <div class="counter-container">
+                        <div class="counter-box">
+                           <div class="counter-img">
+                              <img src="Images/ourprocess/1.png" alt="">
                            </div>
-                          
+                           <div class="counter-head">
+                              <h1>Reliable Sourcing</h1>
+                           </div>
+                           <div class="counter-para">
+                              <p>Carefully vetted suppliers ensuring premium quality products</p>
+                           </div>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="counter-box">
+                           <div class="counter-img">
+                              <img src="Images/ourprocess/2.png" alt="">
+                           </div>
+                           <div class="counter-head">
+                              <h1 style="color:#000;">Efficient Logistics</h1>
+                           </div>
+                           <div class="counter-para">
+                              <p>Streamlined shipping process for container-level orders</p>
+                           </div>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="counter-box">
+                           <div class="counter-img">
+                              <img src="Images/ourprocess/3.png" alt="">
+                           </div>
+                           <div class="counter-head">
+                              <h1 style="color:#000;">Quality Assurance</h1>
+                           </div>
+                           <div class="counter-para">
+                              <p>Rigorous quality control at every step</p>
+                           </div>
                         </div>
                      </div>
                   </div>
-              </div>
-            </header>
-          
-         </div>
-      </div>
-      <div id="navbar-placeholder"></div>
-      <div class="home-content1 d-flex flex-column justify-content-center align-items-start text-center">
-         <div class="container">
-            <div class="headline">
-               <h6 class="ali-text"> <img src="Images/images-main/video-icon.png" alt="">Learn about Alibaba.com</h6>
-               <h1 class="main-heading"> UNLOCK GLOBAL TRADE WITH THE <br /> ULTIMATE B2B E-COMMERCE PLATFORM
-               </h1>
-            </div>
-            <!-- Search Bar -->
-            <div class="search-bar mt-4 d-flex justify-content-start">
-               <div class="search-input-container position-relative d-flex flex-grow-1">
-                  <img src="Images/images-main/header/camera.png" class="camera-icon">
-                  <input type="text" placeholder="leopard panties" class=" search-input flex-grow-1">
-                  <button class="btn search-btn"> <img src="Images/images-main/header/Icon.png" alt=""> Search</button>
+                  <div class="horizontal-line">
+                  </div>
+
                </div>
-            </div>
-            <div class="frequently-searched mt-3">
-               <span class="frequently-one" style="color: #fff;font-size: 12px;">Frequently searched:</span>
-               <span class="badge transparent-badge">Rice</span>
-               <span class="badge transparent-badge">Karshaka Rani</span>
-               <span class="badge transparent-badge">Coconut Oil</span>
             </div>
          </div>
       </div>
-      <!--  -->
-      <div class="features-section">
-         <div class="container ">
-            <div class="row gy-4">
-               <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="100">
-                  <div class="card-item">
-                     <div class="vector">
-                        <img src="Images/images-main/service/vector2.png" />
-                     </div>
-                     <h4>Access Millions of Business Opportunities
-                     </h4>
-                     <p>Explore a world of products and suppliers tailored to your business needs, sourced from millions of offerings worldwide.</p>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="200">
-                  <div class="card-item">
-                     <div class="vector">
-                        <img src="Images/images-main/service/vector4.png" />
-                     </div>
-                     <h4>Your All-in-One Trading Hub</h4>
-                     <p>Effortlessly navigate every step from finding products and suppliers to managing orders, secure payments, and seamless fulfillment,all in one place!</p>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card-item">
-                     <div class="vector">
-                        <img src="Images/images-main/service/vector4.png" />
-                     </div>
-                     <h4> Personalized Trading Excellence</h4>
-                     <p>Unlock exclusive perks like special discounts, premium protection, and dedicated support.Designed to fuel your business growth at every step of your journey!
-                     </p>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="300">
-                  <div class="card-item">
-                     <div class="vector">
-                        <img src="Images/images-main/service/vector3.png" />
-                     </div>
-                     <h4>Go Global with Confidence</h4>
-                     <p>Expand your business worldwide with seamless logistics and trusted local support, making international trade effortless and efficient!
+   </section>
+   <section class="global-search">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-7">
+               <div class="global-search-main">
 
 
-                     </p>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="global-seach-heading">
+                           <h1> Our Global Reach
+                           </h1>
+                           <p>Currently operating in the GCC, we are rapidly expanding to new regions, making it easier
+                              for businesses worldwide to access premium food products. Our commitment to efficiency,
+                              transparency, and global reach makes us the preferred choice for food trading.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="heading">
+               </div>
+            </div>
+            <div class="col-md-5">
+               <div class="global-search-counter">
+
+                  <div class="global-search-box">
+                     <div class="counter-number" data-target="10">50+</div>
+                     <div class="counter-label aos-init aos-animate" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+                        Countries Served
+                     </div>
+                  </div>
+                  <div class="global-search-box">
+                     <div class="counter-number" data-target="10" style=" color: #49BFB8
+    ;">1000+</div>
+                     <div class="counter-label aos-init aos-animate" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="1500">Active Partners
+                     </div>
+                  </div>
+                  <div class="global-search-box">
+                     <div class="counter-number" data-target="10" style=" color: #49BFB8
+    ;">5000+</div>
+                     <div class="counter-label aos-init aos-animate" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="1500">Containers Shipped
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+   <section class="mission-vision">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="heading">
+                  <h1>Empowering Business
+                     <br>
+                     Through Global Trade
+                  </h1>
+                  <p>Container Kart provides all-in-one B2B trading solutions for small and medium-sized businesses,
+                     enabling them to thrive in the digital era, seize global opportunities, and fast-track
+                     international growth.</p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-6">
+               <div class="mission">
+                  <div class="mission-head">
+                     <img src="Images/empowering/mission.png" alt="">
+                     <span class="m-head">Mission</span>
+                  </div>
+                  <div class="mission-para">
+                     <p>Delivering premium food and non-food products worldwide through a seamless, reliable supply
+                        chain. With strong logistics and a verified trading process, we empower buyers and sellers to
+                        trade with confidence. Committed to innovation, we are developing a mobile-assisted app to
+                        enhance user experience and streamline transactions. </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="vision">
+                  <div class="vision-head">
+                     <img src="Images/empowering/vision.png" alt="">
+                     <span class="v-head">Vision</span>
+                  </div>
+                  <div class="vision-para">
+                     <p>A leading force in wholesale distribution across the GCC and beyond, we drive import-export
+                        growth and enhance e-commerce support by 2030. Strategically based in Dubai, our
+                        forward-thinking approach leverages mobile technology for a seamless, efficient trading
+                        experience.</p>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!--  -->
-      <div class="content2">
+   </section>
+
+   <div class="col-lg-12" style="padding: 0px;margin: 0px;" data-aos="fade-up" data-aos-delay="200">
+      <div class="empower-card-item3">
          <div class="container">
             <div class="row">
-               <div class="col-lg-6 col-md-6 col-sm-6  ">
-                  <div class="carosel-head">
-                     <h3>
-                        Unlock premium solutions for<br> unstoppable growth <br> and lasting success.
-                       
-                     </h3>
-                  </div>
+               <div class="col-lg-7">
+                  <h4>Global Presents
+                  </h4>
                </div>
-               <div class="col-lg-6 col-md-6 col-sm-6 carosel-head2 ">
-                  <div class="countup-container">
-                     <!-- Countup elements with data-target attributes -->
-                     <div class="countup">
-                        <span class="count" data-target="150">M</span>
-                        <span style="color: #51200B;">Products</span>
-                     </div>
-                     <div class="countup">
-                        <span class="count plus-sign" data-target="+250">0</span>
-                        <span style="color: #51200B;">Products</span>
-                     </div>
-                     <div class="countup">
-                        <span class="count" data-target="100">0</span>
-                        <span style="color: #51200B;">Products</span>
-                     </div>
-                     <div class="countup">
-                        <span class="count plus-sign" data-target="+50">0</span>
-                        <span style="color: #51200B;">Products</span>
-                     </div>
-                  </div>
-                  <!-- <div class=" ">
-                     <div>
-                        <h3>200M+</h3>
-                        <p class="product-text">Products</p>
-                     </div>
-                     <div>
-                        <h3>200M+</h3>
-                        <p class="product-text">Products</p>
-                     </div>
-                     </div>
-                     <div class=" ">
-                     <div>
-                        <h3>200M+</h3>
-                        <p class="product-text">Products</p>
-                     </div>
-                     <div>
-                        <h3>200M+</h3>
-                        <p class="product-text">Products</p>
-                     </div>
-                     </div>
-                     </div> -->
-               </div>
-            </div>
-         </div>
-         <!--  -->
-<div class="container">
-   <div class="swiper-slider-main">
-      <div class="swiper mySwiper">
-         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-            <div class="card-item2">
-               <img src="Images/images-main/categories/Commodities.jpg" alt="Commodity" class="commodity-img">
-               <img src="Images/images-main/categories/Commodities Image.jpg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-            </div>
-         <div class="swiper-slide">
-            
-            <div class="card-item2">
-               <img src="Images/images-main/categories/Oil Products.jpg" alt="Commodity" class="commodity-img">
-               <img src="Images/images-main/categories/Oil Image.jpg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-      </div>
-         <div class="swiper-slide">  
-            <div class="card-item2">
-               <img src="Images/images-main/categories/chocolates.jpg" alt="Commodity" class="commodity-img">
-               <img src="Images/images-main/categories/choco image.jpg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-      </div>
-         <div class="swiper-slide"> 
-            <div class="card-item2">
-               <img src="Images/images-main/categories/Dates.jpg" alt="Commodity" class="commodity-img">
-               <img src="Images/images-main/categories/Dates Image.jpg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-      </div>
-         <div class="swiper-slide">
-            <div class="card-item2">
-               <img src="Images/images-main/categories/FMCG.jpg" alt="Commodity" class="commodity-img">
-               <img src="./Images/images-main/categories/FMCG image.jpg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-      </div>
-         <div class="swiper-slide"> 
-            <div class="card-item2">
-               <img src="Images/images-main/categories/Spices.jpg" alt="Commodity" class="commodity-img">
-               <img src="Images/images-main/categories/Spices iamge.jpg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-      </div>
-         <div class="swiper-slide"> 
-            <div class="card-item2">
-               <img src="Images/images-main/categories/Commodities.jpg" alt="Commodity" class="commodity-img">
-               <img src="Images/images-main/categories/Commodities Image.jpg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-      </div>
-           <div class="swiper-slide"> <div class="card-item2">
-            <img src="Images/images-main/categories/Oil Products.jpg" alt="Commodity" class="commodity-img">
-            <img src="Images/images-main/categories/Oil Image.jpg" alt="Product" class="container-img">
-            <p>Commoity</p>
-         </div></div>
-           <div class="swiper-slide">   <div class="card-item2">
-            <img src="Images/images-main/categories/chocolates.jpg" alt="Commodity" class="commodity-img">
-            <img src="Images/images-main/categories/choco image.jpg" alt="Product" class="container-img">
-            <p>Commoity</p>
-         </div></div>
-         </div>
+               <!-- <div class="col-lg-3">
+               </div> -->
+               <div class="col-lg-5">
+                  <h6>
+                     We have the largest 
+                     
+                     <br>
+                     distribution across the globe.
+                  </h6>
+                  <p>most trusted and sought-after general food and non-food, wholesale, bulk distributors. We also
+                     trade bulk grocery items and our foot print is in the entire middle east countries.
 
-         <div class="swiper-button-next"></div>
-         <div class="swiper-button-prev"></div>
-         <div class="swiper-pagination"></div>
-       </div>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
    </div>
-</div>
-       
-<!-- 
+   <section>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="heading">
+                  <h1>Core Values</h1>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="uae-visa-para-main">
+                  <div class="horizontal-line">
+                  </div>
+                  <div class="counter-main-div">
+                     <div class="counter-container">
+                        <div class="counter-box">
+                           <div class="counter-img">
+                              <img src="Images/corevalues/1.png" alt="">
+                           </div>
+                           <div class="counter-head">
+                              <h1>Direct Control</h1>
+                           </div>
+                           <div class="counter-para">
+                              <p>We manage every step of the process, ensuring timely and accurate deliveries.</p>
+                           </div>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="counter-box">
+                           <div class="counter-img">
+                              <img src="Images/corevalues/2.png" alt="">
+                           </div>
+                           <div class="counter-head">
+                              <h1 style="color:#000;">Secure Trading</h1>
+                           </div>
+                           <div class="counter-para">
+                              <p>Container Kart guarantees access to vast inventories and a trusted buyer network.</p>
+                           </div>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="counter-box">
+                           <div class="counter-img">
+                              <img src="Images/corevalues/3.png" alt="">
+                           </div>
+                           <div class="counter-head">
+                              <h1 style="color:#000;">Streamlined Operations</h1>
+                           </div>
+                           <div class="counter-para">
+                              <p>Our systematic approach makes bulk trading easier, faster, and more transparent.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="horizontal-line">
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="heading-unlock-main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="heading-unlock">
+                  <h1>
+                     Unlock premium<br> solutions for <br>unstoppable growth <br> and lasting success.
+
+                  </h1>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
+               <div class="uae-visa-para-main">
+                  <div class="horizontal-line">
+                  </div>
+                  <div class="counter-main-div">
+                     <div class="counter-container">
+                        <div class="counter-box">
+                           <div class="counter-number-second">
+                              150+
+                           </div>
+                           <div class="counter-name">
+                              Products
+                           </div>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="counter-box">
+                           <div class="counter-number-second">
+                              150+
+                           </div>
+                           <div class="counter-name">
+                              Products
+                           </div>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="counter-box">
+                           <div class="counter-number-second">
+                              150+
+                           </div>
+                           <div class="counter-name">
+                              Products
+                           </div>
+                        </div>
+                        <div class="vertical-line">
+                        </div>
+                        <div class="counter-box">
+                           <div class="counter-number-second">
+                              150+
+                           </div>
+                           <div class="counter-name">
+                              Products
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="horizontal-line">
+                  </div>
+
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- <div class="container">
+      <div class="row">
+         <div class="col-lg-6 col-md-6 col-sm-6  ">
+            <div class="carosel-head">
+               <h3>
+                  Unlock premium solutions for<br> unstoppable growth <br> and lasting success.
+
+               </h3>
+            </div>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-6 carosel-head2 ">
+            <div class="countup-container">
+
+               <div class="countup">
+                  <span class="count" data-target="150">150</span>
+                  <span style="color: #51200B;">Products</span>
+               </div>
+               <div class="countup">
+                  <span class="count plus-sign" data-target="+250">+250</span>
+                  <span style="color: #51200B;">Products</span>
+               </div>
+               <div class="countup">
+                  <span class="count" data-target="100">100</span>
+                  <span style="color: #51200B;">Products</span>
+               </div>
+               <div class="countup">
+                  <span class="count plus-sign" data-target="+50">+50</span>
+                  <span style="color: #51200B;">Products</span>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div> -->
+   <!-- <div class="features-section">
+      <div class="container ">
+         <div class="row gy-4">
+            <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="100">
+               <div class="card-item">
+                  <div class="vector">
+                     <img src="Images/images-main/service/vector2.png" />
+                  </div>
+                  <h4>Access Millions of Business Opportunities
+                  </h4>
+                  <p>Explore a world of products and suppliers tailored to your business needs, sourced from millions of
+                     offerings worldwide.</p>
+               </div>
+            </div>
+            <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="200">
+               <div class="card-item">
+                  <div class="vector">
+                     <img src="Images/images-main/service/vector4.png" />
+                  </div>
+                  <h4>Your All-in-One Trading Hub</h4>
+                  <p>Effortlessly navigate every step from finding products and suppliers to managing orders, secure
+                     payments, and seamless fulfillment,all in one place!</p>
+               </div>
+            </div>
+            <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="300">
+               <div class="card-item">
+                  <div class="vector">
+                     <img src="Images/images-main/service/vector4.png" />
+                  </div>
+                  <h4> Personalized Trading Excellence</h4>
+                  <p>Unlock exclusive perks like special discounts, premium protection, and dedicated support.Designed
+                     to fuel your business growth at every step of your journey!
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-3 col-6" data-aos="fade-up" data-aos-delay="300">
+               <div class="card-item">
+                  <div class="vector">
+                     <img src="Images/images-main/service/vector3.png" />
+                  </div>
+                  <h4>Go Global with Confidence</h4>
+                  <p>Expand your business worldwide with seamless logistics and trusted local support, making
+                     international trade effortless and efficient!
+
+
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div> -->
+   <!--  -->
+   <div class="content2">
+      <!-- <div class="container">
+         <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6  ">
+               <div class="carosel-head">
+                  <h3>
+                     Unlock premium solutions for<br> unstoppable growth <br> and lasting success.
+
+                  </h3>
+               </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 carosel-head2 ">
+               <div class="countup-container">
+                
+                  <div class="countup">
+                     <span class="count" data-target="150">M</span>
+                     <span style="color: #51200B;">Products</span>
+                  </div>
+                  <div class="countup">
+                     <span class="count plus-sign" data-target="+250">0</span>
+                     <span style="color: #51200B;">Products</span>
+                  </div>
+                  <div class="countup">
+                     <span class="count" data-target="100">0</span>
+                     <span style="color: #51200B;">Products</span>
+                  </div>
+                  <div class="countup">
+                     <span class="count plus-sign" data-target="+50">0</span>
+                     <span style="color: #51200B;">Products</span>
+                  </div>
+               </div>
+              
+            </div>
+         </div>
+      </div> -->
+      <!--  -->
+      <div class="container">
+         <div class="swiper-slider-main">
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/Commodities.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/Commodities Image.jpg" alt="Product"
+                           class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/Oil Products.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/Oil Image.jpg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/chocolates.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/choco image.jpg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/Dates.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/Dates Image.jpg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/FMCG.jpg" alt="Commodity" class="commodity-img">
+                        <img src="./Images/images-main/categories/FMCG image.jpg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/Spices.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/Spices iamge.jpg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/Commodities.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/Commodities Image.jpg" alt="Product"
+                           class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/Oil Products.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/Oil Image.jpg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/categories/chocolates.jpg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/categories/choco image.jpg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+      </div>
+
+      <!-- 
          <div class="container">
             <div class="card-section2">
                <div class="card-container2" id="cardContainer">
@@ -357,69 +659,69 @@
                <button class="scroll-button next" onclick="scrollRight()">&#8250;</button>
             </div>
          </div> -->
-         <div class="grid-main">
-            <div class="grid-section">
-               <div class="container">
-                  <h2 class="seller-text">Best Sellers</h2>
-                  <div class="grid">
-                     <div class="grid-item item1">
-                        <img src="Images/images-main/bestsellar/01.jpg" alt="Best Seller 1">
-                        <button onclick="scrollToForm()">Get a Quote</button>
-                     </div>
-                     <div class="grid-item item2">
-                        <img src="Images/images-main/bestsellar/02.jpg" alt="Best Seller 1">
-                     </div>
-                     <div class="grid-item item3">
-                        <img src="Images/images-main/bestsellar/03.jpg" alt="Best Seller 1">
-                     </div>
-                     <div class="grid-item item4">
-                        <img src="Images/images-main/bestsellar/04.jpg" alt="Best Seller 1">
-                     </div>
-                     <div class="grid-item item5">
-                        <img src="Images/images-main/bestsellar/05.jpg" alt="Best Seller 1">
-                     </div>
-                     <div class="grid-item item6">
-                        <img src="Images/images-main/bestsellar/06.jpg" alt="Best Seller 1">
-                     </div>
+      <!-- <div class="grid-main">
+         <div class="grid-section">
+            <div class="container">
+               <h2 class="seller-text">Best Sellers</h2>
+               <div class="grid">
+                  <div class="grid-item item1">
+                     <img src="Images/images-main/bestsellar/01.jpg" alt="Best Seller 1">
+                     <button onclick="scrollToForm()">Get a Quote</button>
+                  </div>
+                  <div class="grid-item item2">
+                     <img src="Images/images-main/bestsellar/02.jpg" alt="Best Seller 1">
+                  </div>
+                  <div class="grid-item item3">
+                     <img src="Images/images-main/bestsellar/03.jpg" alt="Best Seller 1">
+                  </div>
+                  <div class="grid-item item4">
+                     <img src="Images/images-main/bestsellar/04.jpg" alt="Best Seller 1">
+                  </div>
+                  <div class="grid-item item5">
+                     <img src="Images/images-main/bestsellar/05.jpg" alt="Best Seller 1">
+                  </div>
+                  <div class="grid-item item6">
+                     <img src="Images/images-main/bestsellar/06.jpg" alt="Best Seller 1">
                   </div>
                </div>
             </div>
          </div>
-      </div>
-      <div class="section-wrapper">
-         <section class="section" id="section1">
-            <img class="w-100" src="Images/images-main/section-scroll/01 Reach ne.jpg" alt="">
-            <div class="container">
-               <div class="section-sub-head">
-                  <div class="row">
-                     <div class="section-sub-head-h1">
-                       
+      </div> -->
+   </div>
+   <!-- <div class="section-wrapper">
+      <section class="section" id="section1">
+         <img class="w-100" src="Images/images-main/section-scroll/01 Reach ne.jpg" alt="">
+         <div class="container">
+            <div class="section-sub-head">
+               <div class="row">
+                  <div class="section-sub-head-h1">
 
-                        <h1>Expand your reach,  <br> attract new customers,  <br>and accelerate business growth.</h1>
-                     </div>
+
+                     <h1>Expand your reach, <br> attract new customers, <br>and accelerate business growth.</h1>
                   </div>
                </div>
             </div>
-         </section>
-         <section class="section" id="section2">
-            <img class="w-100" src="Images/images-main/section-scroll/Reach new-sectio.jpg" alt="">
-            <div class="container">
-               <div class="section-sub-head">
-                  <div class="row">
-                     <div class="section-sub-head-h1">
-                 
-                        <h1> Discover an exclusive<br>
-                           collection and limitless<br>
-                           inventory like never before.<br>
-                           
-                        </h1>
-                     </div>
+         </div>
+      </section>
+      <section class="section" id="section2">
+         <img class="w-100" src="Images/images-main/section-scroll/Reach new-sectio.jpg" alt="">
+         <div class="container">
+            <div class="section-sub-head">
+               <div class="row">
+                  <div class="section-sub-head-h1">
+
+                     <h1> Discover an exclusive<br>
+                        collection and limitless<br>
+                        inventory like never before.<br>
+
+                     </h1>
                   </div>
                </div>
             </div>
-         </section>
-      </div>
-      <!-- <div class="mainslider">
+         </div>
+      </section>
+   </div> -->
+   <!-- <div class="mainslider">
          <div class="slide-scroll visible" id="slideone">
              <img src="Images/Rectangle 21.png" alt="Image 1">
              <h2>Reach new
@@ -434,60 +736,173 @@
                selection</h2>
          </div>
          </div> -->
-      <!-- <div class="new-customers">
+   <!-- <div class="new-customers">
          <div class="customer-main">
             <div class="container">
                <h3>Reach new<br/> customers & grow<br/> your business</h3>
             </div>
          </div>
          </div> -->
-      <div class="benefit-section">
-         <div class="container">
-        
+   <!-- <div class="benefit-section">
+      <div class="container">
 
-            <h3> Maximize value for both<br />buyers and sellers.</h3>
-            <div class="row gy-4 benefit-card-main ">
-               <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="100">
-                  <div class="benefit-card">
-                     <div class="vector2">
-                        <img src="Images/images-main/service/vector2.png" />
-                     </div>
-                     <h4>Verified <br> Network</h4>
-                     <p>Join a trusted network and trade with confidence.
 
-                        </p>
+         <h3> Maximize value for both<br />buyers and sellers.</h3>
+         <div class="row gy-4 benefit-card-main ">
+            <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="100">
+               <div class="benefit-card">
+                  <div class="vector2">
+                     <img src="Images/images-main/service/vector2.png" />
                   </div>
+                  <h4>Verified <br> Network</h4>
+                  <p>Join a trusted network and trade with confidence.
+
+                  </p>
                </div>
-               <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="200">
-                  <div class="benefit-card">
-                     <div class="vector2">
-                        <img src="Images/images-main/service/vector4.png" />
-                     </div>
-                     <h4>Scalable<br>  Solutions
-                     </h4>
-                     <p>From single containers to bulk shipments, we provide flexible solutions that grow with your business.
-                     </p>
+            </div>
+            <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="200">
+               <div class="benefit-card">
+                  <div class="vector2">
+                     <img src="Images/images-main/service/vector4.png" />
                   </div>
+                  <h4>Scalable<br> Solutions
+                  </h4>
+                  <p>From single containers to bulk shipments, we provide flexible solutions that grow with your
+                     business.
+                  </p>
                </div>
-               <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="300">
-                  <div class="benefit-card">
-                     <div class="vector2">
-                        <img src="Images/images-main/service/vector4.png" />
-                     </div>
-                     <h4>Global <br> Network</h4>
-                     <p>Tap into a world of markets and suppliers, all at your fingertips.</p>
+            </div>
+            <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="300">
+               <div class="benefit-card">
+                  <div class="vector2">
+                     <img src="Images/images-main/service/vector4.png" />
                   </div>
+                  <h4>Global <br> Network</h4>
+                  <p>Tap into a world of markets and suppliers, all at your fingertips.</p>
                </div>
             </div>
          </div>
       </div>
-      <div class="container efficient-main">
+   </div> -->
+
+   <section class="banner-main">
+      <div class="conatiner">
+         <div class="banner-img">
+            <img src="bannerimg/1.png" alt="">
+         </div>
+      </div>
+   </section>
+   <section class="best-sellar-main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="best-sellar-head">
+                  <h1>
+                     Best Seller Products
+
+                  </h1>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div class="product-img">
+                  <img src="Images/bestsellar/Screenshot 2025-02-05 at 12.41.13 PM 1.png" alt="">
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <section>
+      <div class="full-banner-slider swiper  mySwiper">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+               <img src="Images/reachbanner/01 Reach ne.jpg" alt="">
+               <div class="reach-content">
+                  <h1>Reach new <br>customers
+                     & Grow<br> your business</h1>
+               </div>
+
+            </div>
+            <div class="swiper-slide">
+
+               <img src="Images/reachbanner/01 Reach ne.jpg" alt="">
+               <div class="reach-content">
+                  <h1>Reach new <br>customers
+                     & Grow<br> your business</h1>
+               </div>
+
+            </div>
+            <div class="swiper-slide">
+
+               <img src="Images/reachbanner/01 Reach ne.jpg" alt="">
+               <div class="reach-content">
+                  <h1>Reach new <br>customers
+                     & Grow<br> your business</h1>
+               </div>
+
+            </div>
+
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>
+
+   </section>
+   <div class=" efficient-main">
+      <div class="container">
          <div class="logistic-container">
             <div class="logistic-section">
                <div class="text-content">
-                  <h3>SEAMLESS LOGISTICS & SECURE <br /> TRANSACTIONS
-                     </h3>
+                  <h3>Seamless logistics
+                     <br>
+                     & secure
+                     TransactionsS
+                  </h3>
                   <div class="row">
+                     <div class="col-lg-6 col-md-12">
+                        <div class="illustration">
+                           <img src="Images/images-main/logistics/firm.jpeg" alt="Ship Illustration"
+                              id="dynamic-image" />
+                        </div>
+                     </div>
                      <div class="col-lg-6 col-md-12 list-items">
                         <ul class="benefits-list">
                            <li data-image="Images/images-main/logistics/firm.jpeg">
@@ -496,7 +911,8 @@
                               </div>
                               <div class="benefit-content">
                                  <h4>FARM </h4>
-                                 <p>Sourcing premium raw materials with a commitment to sustainability for the eco-conscious consumer.</p>
+                                 <p>Sourcing premium raw materials with a commitment to sustainability for the
+                                    eco-conscious consumer.</p>
                               </div>
                            </li>
                            <li data-image="Images/images-main/logistics/production-unit.jpeg">
@@ -505,7 +921,8 @@
                               </div>
                               <div class="benefit-content">
                                  <h4>PRODUCTION UNITS</h4>
-                                 <p>Our advanced facilities ensure top-tier processing and grading, meeting the highest quality and hygiene standards.
+                                 <p>Our advanced facilities ensure top-tier processing and grading, meeting the highest
+                                    quality and hygiene standards.
                                  </p>
                               </div>
                            </li>
@@ -516,7 +933,8 @@
                               <div class="benefit-content">
                                  <h4>HYPERMARKET & SUPERMARKET
                                  </h4>
-                                 <p>Find our premium products in top hypermarkets and supermarkets nationwide. Bringing quality closer to you.
+                                 <p>Find our premium products in top hypermarkets and supermarkets nationwide. Bringing
+                                    quality closer to you.
                                  </p>
                               </div>
                            </li>
@@ -527,7 +945,8 @@
                               <div class="benefit-content">
                                  <h4>FMCG DISTRIBUTION
                                  </h4>
-                                 <p>Partnering with trusted distributors to deliver a wide range of essential products, from grains to spices, straight to families.
+                                 <p>Partnering with trusted distributors to deliver a wide range of essential products,
+                                    from grains to spices, straight to families.
                                  </p>
                               </div>
                            </li>
@@ -538,22 +957,20 @@
                               <div class="benefit-content">
                                  <h4>GLOBAL REACH:MIDDLE EAST, AFRICA, ASIA, and AUSTRALIA
                                  </h4>
-                                 <p>Bringing Containerkart’s premium products to customers across the GCC, Africa, Asia, and Australia.
+                                 <p>Bringing Containerkart’s premium products to customers across the GCC, Africa, Asia,
+                                    and Australia.
                                  </p>
                               </div>
                            </li>
                         </ul>
                      </div>
-                     <div class="col-lg-6 col-md-12">
-                        <div class="illustration">
-                           <img src="Images/images-main/logistics/firm.jpeg" alt="Ship Illustration" id="dynamic-image" />
-                        </div>
-                     </div>
+
                   </div>
                </div>
             </div>
          </div>
-         <!-- <div class="row">
+      </div>
+      <!-- <div class="row">
             <div class="col-md-6">
             
                <div class="efficient-trust">
@@ -618,351 +1035,508 @@
                 <img src="" alt="Display Image" id="hover-image">
             </div>
             </div> -->
-      </div>
-      <div class="cta-section">
-         <div class="container">
-            <h3>EXCLUSIVE  BENEFITS FOR EVERY BUSINESS STAGE</h3>
-            <p>Enjoy customized discounts, services, and tools with our free membership, <br /> whether you're just starting or managing complex orders  <br /> as an established enterprise.
+   </div>
 
-               
+   <section class="testimonial-main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="testimonial-main-heading">
+                  <h1>
+                     <span style="font-weight: 400;">From Our</span>
+                     <br>
+                     Community.
 
-            </p>
-            <p><a href="" class="s-link">Learn more</a></p>
-            <div class="testimonial-section">
-              
+                  </h1>
+                  <p>We manage every step of the <br> process, ensuring timely and <br> accurate deliveries.</p>
+               </div>
+            </div>
+            <div class="col-md-6">
                <div class="testimonial-carousel">
                   <div class="testimonial-content" id="innerTestimonialContainer">
-                     
+
                      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" autopaly="false">
 
-                       
+
                         <div class="carousel-inner">
                            <div class="carousel-item active">
                               <div class="row">
-                                 <div class="col-md-4">
+                                 <!-- <div class="col-md-4">
                                     <div class="testimonial-section-img">
-                                       <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile" class="testimonial-img" />
+                                       <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile"
+                                          class="testimonial-img" />
                                     </div>
-                                 </div>
-                                 <div class="col-md-8  test-carousel-main">
+                                 </div> -->
+                                 <div class="col-md-12  test-carousel-main">
                                     <div class="carousel-content">
-                                       <h4>Rafeeque Palakkal</h4>
-                                       <p>Managing Director</p>
+                                       <img class="inverted-icon" src="Images/testimonial/inverted-icon.png" alt="">
+
                                        <blockquote>
-                                          "We partner with you to understand and clearly communicate what your brand stands for.
-                                          For those starting up, we help think through the process of building a brand, and
-                                          execute it with bold visuals and words."
+                                          We partner with you to understand and clearly communicate what your brand
+                                          stands
+                                          for.
+                                          For those starting up, we help think through the process of building a brand,
+                                          and
+                                          execute it with bold visuals and words.
                                        </blockquote>
+
+                                       <div class="testi-img-main">
+                                          <div class="testi-img">
+                                             <img src="Images/testimonial/raectangle.png" alt="">
+                                          </div>
+                                          <div class="test-img-contents">
+                                             <h4>Rafeeque Palakkal</h4>
+                                             <p>Managing Director</p>
+                                          </div>
+
+                                       </div>
+
                                     </div>
                                  </div>
 
                               </div>
-                              
-                           
                            </div>
-                           <div class="carousel-item">
+                           <!-- <div class="carousel-item">
                               <div class="row">
                                  <div class="col-md-4 ">
                                     <div class="testimonial-section-img">
-                                       <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile" class="testimonial-img" />
+                                       <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile"
+                                          class="testimonial-img" />
                                     </div>
                                  </div>
-                                 <div class="col-md-8  test-carousel-main">
+                                 <div class="col-md-12  test-carousel-main">
                                     <div class="carousel-content">
                                        <h4>Rafeeque Palakkal</h4>
                                        <p>Managing Director</p>
                                        <blockquote>
-                                          "We partner with you to understand and clearly communicate what your brand stands for.
+                                          "We partner with you to understand and clearly communicate what your brand stands
+                                          for.
                                           For those starting up, we help think through the process of building a brand, and
                                           execute it with bold visuals and words."
                                        </blockquote>
                                     </div>
                                  </div>
-
+   
                               </div>
                            </div>
                            <div class="carousel-item">
                               <div class="row">
                                  <div class="col-md-4">
                                     <div class="testimonial-section-img">
-                                       <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile" class="testimonial-img" />
+                                       <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile"
+                                          class="testimonial-img" />
                                     </div>
                                  </div>
-                                 <div class="col-md-8 test-carousel-main" >
+                                 <div class="col-md-8 test-carousel-main">
                                     <div class="carousel-content">
                                        <h4>Rafeeque Palakkal</h4>
                                        <p>Managing Director</p>
                                        <blockquote>
-                                          "We partner with you to understand and clearly communicate what your brand stands for.
+                                          "We partner with you to understand and clearly communicate what your brand stands
+                                          for.
                                           For those starting up, we help think through the process of building a brand, and
                                           execute it with bold visuals and words."
                                        </blockquote>
                                     </div>
                                  </div>
-
+   
                               </div>
+                           </div> -->
+                           <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                           data-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true">
+                              <i class="fas fa-chevron-left"></i>
+                           </span>
+                           <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                           data-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true">
+                              <i class="fas fa-chevron-right"></i>
+                           </span>
+                           <span class="sr-only">Next</span>
+                        </a>
+                        </div>
+
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- <div class="cta-section">
+      <div class="container">
+         <h3>EXCLUSIVE BENEFITS FOR EVERY BUSINESS STAGE</h3>
+         <p>Enjoy customized discounts, services, and tools with our free membership, <br /> whether you're just
+            starting or managing complex orders <br /> as an established enterprise.
+
+
+
+         </p>
+         <p><a href="" class="s-link">Learn more</a></p>
+         <div class="testimonial-section">
+
+            <div class="testimonial-carousel">
+               <div class="testimonial-content" id="innerTestimonialContainer">
+
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" autopaly="false">
+
+
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <div class="testimonial-section-img">
+                                    <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile"
+                                       class="testimonial-img" />
+                                 </div>
+                              </div>
+                              <div class="col-md-8  test-carousel-main">
+                                 <div class="carousel-content">
+                                    <h4>Rafeeque Palakkal</h4>
+                                    <p>Managing Director</p>
+                                    <blockquote>
+                                       "We partner with you to understand and clearly communicate what your brand stands
+                                       for.
+                                       For those starting up, we help think through the process of building a brand, and
+                                       execute it with bold visuals and words."
+                                    </blockquote>
+                                 </div>
+                              </div>
+
+                           </div>
+
+
+                        </div>
+                        <div class="carousel-item">
+                           <div class="row">
+                              <div class="col-md-4 ">
+                                 <div class="testimonial-section-img">
+                                    <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile"
+                                       class="testimonial-img" />
+                                 </div>
+                              </div>
+                              <div class="col-md-8  test-carousel-main">
+                                 <div class="carousel-content">
+                                    <h4>Rafeeque Palakkal</h4>
+                                    <p>Managing Director</p>
+                                    <blockquote>
+                                       "We partner with you to understand and clearly communicate what your brand stands
+                                       for.
+                                       For those starting up, we help think through the process of building a brand, and
+                                       execute it with bold visuals and words."
+                                    </blockquote>
+                                 </div>
+                              </div>
+
                            </div>
                         </div>
-                        <!-- Previous button -->
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <div class="carousel-item">
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <div class="testimonial-section-img">
+                                    <img src="Images/images-main/testimonial/testimonial.png" alt="Testimonial Profile"
+                                       class="testimonial-img" />
+                                 </div>
+                              </div>
+                              <div class="col-md-8 test-carousel-main">
+                                 <div class="carousel-content">
+                                    <h4>Rafeeque Palakkal</h4>
+                                    <p>Managing Director</p>
+                                    <blockquote>
+                                       "We partner with you to understand and clearly communicate what your brand stands
+                                       for.
+                                       For those starting up, we help think through the process of building a brand, and
+                                       execute it with bold visuals and words."
+                                    </blockquote>
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+                     </div>
+                    
+                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true">
-                        <i class="fas fa-chevron-left"></i>
+                           <i class="fas fa-chevron-left"></i>
                         </span>
                         <span class="sr-only">Previous</span>
-                        </a>
-                        <!-- Next button -->
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                     </a>
+                    
+                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true">
-                        <i class="fas fa-chevron-right"></i>
+                           <i class="fas fa-chevron-right"></i>
                         </span>
                         <span class="sr-only">Next</span>
-                        </a>
-                     </div>
+                     </a>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <div class="empower-section">
-         <div class="container">
-            <h4>EMPOWERING BUSINESS THROUGH GLOBAL TRADE
-            </h4>
-            <p>Container Kart provides all-in-one B2B trading solutions for small and medium-sized businesses, <br> enabling them to thrive in the digital era, seize global opportunities,  <br>  and fast-track international growth.
+   </div> -->
+   <!-- <div class="empower-section">
+      <div class="container">
+         <h4>EMPOWERING BUSINESS THROUGH GLOBAL TRADE
+         </h4>
+         <p>Container Kart provides all-in-one B2B trading solutions for small and medium-sized businesses, <br>
+            enabling them to thrive in the digital era, seize global opportunities, <br> and fast-track international
+            growth.
 
-            </p>
-            <div class="row gy-4 empower-cards">
-               <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                  <div class="empower-card-item1">
-                     <div class="vector3">
-                        <img src="Images/images-main/service/vector.png" />
-                     </div>
-                     <br />
-                     <h4>OUR MISSION</h4>
-                     <p>Container Kart is dedicated to delivering high-quality food and nonfood products around the globe. Our goal is to establish a reliable navigation channel that facilitates smooth product transfers across borders, backed by strong logistics and a trustworthy supply chain. We aspire to be the top supplier of premium food and non-food items globally, providing a comprehensive portfolio that enables buyers and sellers to trade with confidence through a thorough verification process. In line with our commitment to innovation and efficiency, Container Kart is also working on a mobile-assisted application to improve user experience, making transactions simpler for everyone.
-
-                     </p>
+         </p>
+         <div class="row gy-4 empower-cards">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+               <div class="empower-card-item1">
+                  <div class="vector3">
+                     <img src="Images/images-main/service/vector.png" />
                   </div>
-               </div>
-               <!-- Card Item -->
-               <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                  <div class="empower-card-item2">
-                     <div class="vector4">
-                        <img src="Images/images-main/service/vector.png" />
-                     </div>
-                     <br />
-                     <h4>OUR VISION
-                     </h4>
-                     <p>Container Kart sees itself as a significant player in wholesale distribution across the GCC and beyond. By 2030, we aim to enhance our e-commerce support, empowering businesses and fostering growth. Strategically based in Dubai, we intend to be an essential part of the import and export economy within the next five years. With our forward-thinking strategy, we are paving the way for a future that leverages mobile technology, ensuring an even more seamless and efficient experience for all our users.
+                  <br />
+                  <h4>OUR MISSION</h4>
+                  <p>Container Kart is dedicated to delivering high-quality food and nonfood products around the globe.
+                     Our goal is to establish a reliable navigation channel that facilitates smooth product transfers
+                     across borders, backed by strong logistics and a trustworthy supply chain. We aspire to be the top
+                     supplier of premium food and non-food items globally, providing a comprehensive portfolio that
+                     enables buyers and sellers to trade with confidence through a thorough verification process. In
+                     line with our commitment to innovation and efficiency, Container Kart is also working on a
+                     mobile-assisted application to improve user experience, making transactions simpler for everyone.
 
-                     </p>
-                  </div>
-               </div>
-               <!-- Card Item -->
-               <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-                  <div class="empower-card-item3">
-                     <div class="row">
-                        <div class="col-lg-4">
-                           <h4>WORLDWIDE <br>  REACH
-                           </h4>
-                        </div>
-                        <div class="col-lg-2">
-                        </div>
-                        <div class="col-lg-5">
-                           <h6>
-                              UNMATCHED GLOBAL DISTRIBUTION
-                           </h6>
-                           <p>Leading the way as the most trusted wholesale distributor of food and non-food products, with a powerful presence across the entire Middle East and beyond.
-
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- Card Item -->
-            </div>
-            <div class=" features">
-               <div class="col-first">
-                  <h3>CORE VALUES</h3>
-                  <p>Guided by integrity, innovation, and sustainability, we are committed to delivering excellence in everything we do.
-                  </p>
-               </div>
-               <div class="col-second">
-                  <h5>DIRECT  <br> CONTROL</h5>
-                  <p>We manage every step of the process, ensuring timely and accurate deliveries.</p>
-               </div>
-               <div class="col-third">
-                  <h5>SECURE <br> TRADE
-                  </h5>
-                  <p>Container Kart guarantees access to vast inventories and a trusted buyer network.</p>
-               </div>
-               <div class="col-fourth">
-                  <h5>STREAMLINED   <br> OPERATIONS</h5>
-                  <p>Our systematic approach makes bulk trading easier, faster, and more transparent.
                   </p>
                </div>
             </div>
-         </div>
-      </div>
-      <div class="form-section" id="form-section">
-         <div class="container">
-            <div class="row form-main">
-               <div class="col-lg-6">
-                  <h4>Ready To Get <br /> Started ?</h4>
-                  <p>Give us a call or drop by anytime, we<br /> endeavour to answer all enquiries<br /> within 24 hours on
-                     business days. We<br /> will be happy to answer your<br /> questions.
-                  </p>
-               </div>
-               <div class="col-lg-6">
-                  <div class="form-card">
-                     <form action="#" method="POST">
-                        <div class="form-div">
-                           <div class="form-group">
-                              <input type="text" id="name" name="name" placeholder="Enter your name" required />
-                              <span class="required-asterisk">*</span>
-                           </div>
-                           <div class="form-group">
-                              <input type="text" id="email" name="email" placeholder="Enter your email" required />
-                              <span class="required-asterisk">*</span>
-                           </div>
-                           <div class="form-group">
-                              <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number"
-                                 required />
-                           </div>
-                           <div class="form-group">
-                              <textarea id="message" row="5" name="message" placeholder="Enter your message"
-                                 required></textarea>
-                           </div>
-                           <div class="form-group">
-                              <button type="submit">Get a Quote</button>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="brands-section">
-         <div class="container">
-            <h4>Our Popular Brands</h4>
-            <p>Container Kart is your go-to platform for premium, bulk essentials. With a <br /> diverse selection of
-               high-quality products, we empower businesses worldwide<br /> to trade confidently. Our promise: quality and
-               efficiency in every container.
-            </p>
-            <br />
-
           
-               <div class="swiper-slider-main swiper-slider-bottom">
-                  <div class="swiper mySwiper">
-                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/1.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/1.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
-                        </div>
-                        </div>
-                     <div class="swiper-slide">
-                        
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/2.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/2.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
-                        </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+               <div class="empower-card-item2">
+                  <div class="vector4">
+                     <img src="Images/images-main/service/vector.png" />
                   </div>
-                     <div class="swiper-slide">  
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/3.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/3.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
-                        </div>
+                  <br />
+                  <h4>OUR VISION
+                  </h4>
+                  <p>Container Kart sees itself as a significant player in wholesale distribution across the GCC and
+                     beyond. By 2030, we aim to enhance our e-commerce support, empowering businesses and fostering
+                     growth. Strategically based in Dubai, we intend to be an essential part of the import and export
+                     economy within the next five years. With our forward-thinking strategy, we are paving the way for a
+                     future that leverages mobile technology, ensuring an even more seamless and efficient experience
+                     for all our users.
+
+                  </p>
+               </div>
+            </div>
+           
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+               <div class="empower-card-item3">
+                  <div class="row">
+                     <div class="col-lg-4">
+                        <h4>WORLDWIDE <br> REACH
+                        </h4>
+                     </div>
+                     <div class="col-lg-2">
+                     </div>
+                     <div class="col-lg-5">
+                        <h6>
+                           UNMATCHED GLOBAL DISTRIBUTION
+                        </h6>
+                        <p>Leading the way as the most trusted wholesale distributor of food and non-food products, with
+                           a powerful presence across the entire Middle East and beyond.
+
+                        </p>
+                     </div>
                   </div>
-                     <div class="swiper-slide"> 
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/4.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/4.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
+               </div>
+            </div>
+         
+         </div>
+         <div class=" features">
+            <div class="col-first">
+               <h3>CORE VALUES</h3>
+               <p>Guided by integrity, innovation, and sustainability, we are committed to delivering excellence in
+                  everything we do.
+               </p>
+            </div>
+            <div class="col-second">
+               <h5>DIRECT <br> CONTROL</h5>
+               <p>We manage every step of the process, ensuring timely and accurate deliveries.</p>
+            </div>
+            <div class="col-third">
+               <h5>SECURE <br> TRADE
+               </h5>
+               <p>Container Kart guarantees access to vast inventories and a trusted buyer network.</p>
+            </div>
+            <div class="col-fourth">
+               <h5>STREAMLINED <br> OPERATIONS</h5>
+               <p>Our systematic approach makes bulk trading easier, faster, and more transparent.
+               </p>
+            </div>
+         </div>
+      </div>
+   </div> -->
+   <div class="form-section" id="form-section">
+      <div class="container">
+         <div class="row form-main">
+            <div class="col-lg-6">
+               <h4>Ready to get
+                  <br>
+                  started?
+               </h4>
+               <p>Give us a call or drop by anytime, we<br /> endeavour to answer all enquiries<br /> within 24 hours on
+                  business days. We<br /> will be happy to answer your<br /> questions.
+               </p>
+            </div>
+            <div class="col-lg-6">
+               <div class="form-card">
+                  <form action="#" method="POST">
+                     <div class="form-div">
+                        <div class="form-group">
+                           <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                           <span class="required-asterisk">*</span>
                         </div>
-                  </div>
-                     <div class="swiper-slide">
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/5.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/5.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
+                        <div class="form-group">
+                           <input type="text" id="email" name="email" placeholder="Enter your email" required />
+                           <span class="required-asterisk">*</span>
                         </div>
-                  </div>
-                     <div class="swiper-slide"> 
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/6.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/6.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
+                        <div class="form-group">
+                           <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number"
+                              required />
                         </div>
-                  </div>
-                     <div class="swiper-slide"> 
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/7.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/7.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
+                        <div class="form-group">
+                           <textarea id="message" row="5" name="message" placeholder="Enter your message"
+                              required></textarea>
                         </div>
-                  </div>
-                       <div class="swiper-slide"> 
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/8.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/8.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
+                        <div class="form-group">
+                           <button type="submit">Get a Quote</button>
                         </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="brands-section">
+      <div class="container">
+         <h4>Our Popular Brands</h4>
+         <!-- <p>Container Kart is your go-to platform for premium, bulk essentials. With a <br /> diverse selection of
+            high-quality products, we empower businesses worldwide<br /> to trade confidently. Our promise: quality and
+            efficiency in every container.
+         </p>
+         <br /> -->
+
+
+         <div class="swiper-slider-main swiper-slider-bottom">
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/1.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/1.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
                   </div>
-                       <div class="swiper-slide"> 
-                        <div class="card-item2">
-                           <img src="Images/images-main/logos/9.jpeg" alt="Commodity" class="commodity-img">
-                           <img src="Images/images-main/logos/9.jpeg" alt="Product" class="container-img">
-                           <p>Commoity</p>
-                        </div>
+                  <div class="swiper-slide">
+
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/2.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/2.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
                   </div>
-                  <div class="swiper-slide"> 
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/3.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/3.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/4.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/4.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/5.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/5.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/6.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/6.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/7.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/7.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/8.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/8.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/9.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/9.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
                      <div class="card-item2">
                         <img src="Images/images-main/logos/10.jpeg" alt="Commodity" class="commodity-img">
                         <img src="Images/images-main/logos/10.jpeg" alt="Product" class="container-img">
                         <p>Commoity</p>
                      </div>
-               </div>
-               <div class="swiper-slide"> 
-                  <div class="card-item2">
-                     <img src="Images/images-main/logos/11.jpeg" alt="Commodity" class="commodity-img">
-                     <img src="Images/images-main/logos/11.jpeg" alt="Product" class="container-img">
-                     <p>Commoity</p>
                   </div>
-            </div>
-            <div class="swiper-slide"> 
-               <div class="card-item2">
-                  <img src="Images/images-main/logos/12.jpeg" alt="Commodity" class="commodity-img">
-                  <img src="Images/images-main/logos/12.jpeg" alt="Product" class="container-img">
-                  <p>Commoity</p>
-               </div>
-         </div>
-         <div class="swiper-slide"> 
-            <div class="card-item2">
-               <img src="Images/images-main/logos/13.jpeg" alt="Commodity" class="commodity-img">
-               <img src="Images/images-main/logos/13.jpeg" alt="Product" class="container-img">
-               <p>Commoity</p>
-            </div>
-      </div>
-      <div class="swiper-slide"> 
-         <div class="card-item2">
-            <img src="Images/images-main/logos/14.jpeg" alt="Commodity" class="commodity-img">
-            <img src="Images/images-main/logos/14.jpeg" alt="Product" class="container-img">
-            <p>Commoity</p>
-         </div>
-   </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/11.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/11.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
                      </div>
-            
-                     <div class="swiper-button-next"></div>
-                     <div class="swiper-button-prev"></div>
-                     <div class="swiper-pagination"></div>
-                   </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/12.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/12.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/13.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/13.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="card-item2">
+                        <img src="Images/images-main/logos/14.jpeg" alt="Commodity" class="commodity-img">
+                        <img src="Images/images-main/logos/14.jpeg" alt="Product" class="container-img">
+                        <p>Commoity</p>
+                     </div>
+                  </div>
                </div>
-     
-            <!-- <div class="card-section2">
+
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+
+         <!-- <div class="card-section2">
                <div class="card-container2" id="cardContainer2">
                   <div class="card-item2">
                      <img src="Images/images-main/categories/Commodities.jpg" alt="Commodity" class="commodity-img">
@@ -1003,168 +1577,169 @@
                <button class="scroll-button prev" onclick="scrollLeft()">&#8249;</button>
                <button class="scroll-button next" onclick="scrollRight()">&#8250;</button>
             </div> -->
-         </div>
       </div>
-      <div class="footer">
-         <div class="container">
-            <div class="social-medias">
-               <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+   </div>
+   <div class="footer">
+      <div class="container">
+         <div class="social-medias">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+         </div>
+         <br />
+         <div class="row">
+            <div class="col-lg-3 col-12 p-0 footer-logo">
+               <img src="Images/images-main/footer/logo2.png" />
             </div>
-            <br />
-            <div class="row">
-               <div class="col-lg-3 col-12 p-0 footer-logo">
-                  <img src="Images/images-main/footer/logo2.png" />
-               </div>
-               <div class="col-lg-3 col-12 p-0">
-                  <div class="who-we-are">
+            <div class="col-lg-3 col-12 p-0">
+               <div class="who-we-are">
                   <h4>Who We Are</h4>
                   <p>Container Kart is a Dubai-based B2B platform for bulk trading, connecting global businesses with a
                      secure, container-based system. Serving wholesalers, retailers, and manufacturers, we simplify
                      transactions across food, non-food, and industrial sectors, building trust with each shipment.
                   </p>
                </div>
-               </div>
-               <div class="col-lg-2  col-6 p-0">
-                  <div class="who-we-are">
+            </div>
+            <div class="col-lg-2  col-6 p-0">
+               <div class="who-we-are">
                   <h4>Catergories</h4>
-                
+
                   <p>Commodities</p>
                   <p>Dates & Nuts</p>
                   <p>Chocolates</p>
                   <p>Oil Products</p>
                   <p>Spices & Rices</p>
-                  <p>FMCG Products</p></div>
+                  <p>FMCG Products</p>
                </div>
-               <div class="col-lg-2  col-6 p-0">
-                  <div class="who-we-are">
+            </div>
+            <div class="col-lg-2  col-6 p-0">
+               <div class="who-we-are">
                   <h4>Get To Know Us</h4>
-                 
+
                   <p>About</p>
                   <p>Vision</p>
                   <p>Mission</p>
                   <p>Core Values</p>
-                  </div>
                </div>
-               <div class="col-lg-2 col-12 col-p-0 p-0">
-                  <div class="footer-address">
+            </div>
+            <div class="col-lg-2 col-12 col-p-0 p-0">
+               <div class="footer-address">
                   <h4>Get Support</h4>
-                  
+
                   <p>Sheikh Mhara Building (Al Hilal Bank Building) Office No. 310, Al Qusais, Dubai, U.A.E.</p>
                   <p>info@containerkart.com</p>
                   <p>+971 52 959 0480</p>
                   <p>+971 52 959 0481</p>
                </div>
-               </div>
             </div>
          </div>
       </div>
+   </div>
 
 
 
 
-<!-- Initialize Swiper -->
+   <!-- Initialize Swiper -->
 
 
-      <script>
-         document.addEventListener("scroll", function () {
-            const scrollPosition = window.scrollY;
-            const parallaxContainer = document.querySelector(".home-content1");
-            const zoomFactor = 1 + scrollPosition / 3000; // Slower zoom speed with higher divisor
-         
-            requestAnimationFrame(() => {
-               parallaxContainer.style.backgroundSize = `${100 * zoomFactor}% ${100 * zoomFactor}%`;
-            });
+   <script>
+      document.addEventListener("scroll", function () {
+         const scrollPosition = window.scrollY;
+         const parallaxContainer = document.querySelector(".home-content1");
+         const zoomFactor = 1 + scrollPosition / 3000; // Slower zoom speed with higher divisor
+
+         requestAnimationFrame(() => {
+            parallaxContainer.style.backgroundSize = `${100 * zoomFactor}% ${100 * zoomFactor}%`;
          });
-      </script>
+      });
+   </script>
 
-      <script>
-         // JavaScript to detect scrolling and add the scroll class
-         window.addEventListener('scroll', function () {
-            if (window.scrollY > 0) {
-               document.body.classList.add('scroll');
+   <script>
+      // JavaScript to detect scrolling and add the scroll class
+      window.addEventListener('scroll', function () {
+         if (window.scrollY > 0) {
+            document.body.classList.add('scroll');
+         } else {
+            document.body.classList.remove('scroll');
+         }
+      });
+
+   </script>
+
+   <script>
+      $(document).ready(function () {
+         var navbar = $('.main-header');
+         var stickyOffset = navbar.offset().top;
+
+         $(window).scroll(function () {
+            if ($(window).scrollTop() > stickyOffset) {
+               navbar.addClass('sticky');
             } else {
-               document.body.classList.remove('scroll');
+               navbar.removeClass('sticky');
             }
          });
-         
-      </script>
+      });
+   </script>
 
-      <script>
-         $(document).ready(function () {
-            var navbar = $('.main-header');
-            var stickyOffset = navbar.offset().top;
-         
-            $(window).scroll(function () {
-               if ($(window).scrollTop() > stickyOffset) {
-                  navbar.addClass('sticky');
-               } else {
-                  navbar.removeClass('sticky');
-               }
-            });
+   <script>
+      function scrollLeft() {
+         const container = document.getElementById('cardContainer');
+         container.scrollBy({
+            left: -200,
+            behavior: 'smooth'
          });
-      </script>
+      }
 
-      <script>
-         function scrollLeft() {
-            const container = document.getElementById('cardContainer');
-            container.scrollBy({
-               left: -200,
-               behavior: 'smooth'
-            });
-         }
-         
-         function scrollRight() {
-            const container = document.getElementById('cardContainer');
-            container.scrollBy({
-               left: 200,
-               behavior: 'smooth'
-            });
-         }
-      </script>
+      function scrollRight() {
+         const container = document.getElementById('cardContainer');
+         container.scrollBy({
+            left: 200,
+            behavior: 'smooth'
+         });
+      }
+   </script>
 
-      <script>
-         const cardContainer2 = document.getElementById('cardContainer2');
-         
-         function scrollLeft() {
-            cardContainer2.scrollBy({
-               left: -220,
-               behavior: 'smooth'
-            });
-         }
-         
-         function scrollRight() {
-            cardContainer2.scrollBy({
-               left: 220,
-               behavior: 'smooth'
-            });
-         }
-      </script>
+   <script>
+      const cardContainer2 = document.getElementById('cardContainer2');
 
-      <script>
-         fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-               document.getElementById('navbar-placeholder').innerHTML = data;
-            })
-            .catch(error => console.error('Error loading navbar:', error));
-      </script>
+      function scrollLeft() {
+         cardContainer2.scrollBy({
+            left: -220,
+            behavior: 'smooth'
+         });
+      }
 
-      <script>
+      function scrollRight() {
+         cardContainer2.scrollBy({
+            left: 220,
+            behavior: 'smooth'
+         });
+      }
+   </script>
+
+   <script>
+      fetch('navbar.html')
+         .then(response => response.text())
+         .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+         })
+         .catch(error => console.error('Error loading navbar:', error));
+   </script>
+
+   <script>
       function scrollToForm() {
          const formSection = document.getElementById('form-section');
          formSection.scrollIntoView({ behavior: 'smooth' });
-         }
-      </script>
+      }
+   </script>
 
-      <script>window.addEventListener('scroll', () => {
+   <script>window.addEventListener('scroll', () => {
          const navbar = document.querySelector('.navbar');
          const menu = document.querySelector('.menu');
          const actionRow2 = document.querySelector('.action-row2');
-         
+
          if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
             menu.classList.add('hidden');
@@ -1174,89 +1749,120 @@
             menu.classList.remove('hidden');
             actionRow2.classList.remove('hidden');
          }
+      });
+
+   </script>
+
+   <script>
+      const listItems = document.querySelectorAll('.benefits-list li');
+      const imageElement = document.getElementById('dynamic-image');
+
+      listItems.forEach((item) => {
+         item.addEventListener('mouseenter', () => {
+            const newImage = item.getAttribute('data-image');
+            imageElement.setAttribute('src', newImage);
          });
-         
-      </script>
+      });
+   </script>
 
-      <script>
-         const listItems = document.querySelectorAll('.benefits-list li');
-         const imageElement = document.getElementById('dynamic-image');
-         
-         listItems.forEach((item) => {
-            item.addEventListener('mouseenter', () => {
-               const newImage = item.getAttribute('data-image');
-               imageElement.setAttribute('src', newImage);
-            });
+
+   <script>
+      const listItemz = document.querySelectorAll('.benefits-list li');
+
+      listItems.forEach(item => {
+         item.addEventListener('mouseenter', () => {
+
+            listItems.forEach(li => li.classList.remove('selected'));
+            item.classList.add('selected');
          });
-      </script>
+      });
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
-      <script>
-         const listItemz = document.querySelectorAll('.benefits-list li');
-         
-         listItems.forEach(item => {
-            item.addEventListener('mouseenter', () => {
-      
-               listItems.forEach(li => li.classList.remove('selected'));
-               item.classList.add('selected');
-            });
-         });
-      </script>
+   <script src="js/counter.js"></script>
+   <script src="js/slider.js"></script>
 
-      <script src="js/counter.js"></script>
-      <script src="js/slider.js"></script>
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
 
-      <!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-         crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-         crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-         crossorigin="anonymous"></script>
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 7,
+         autoplay: true,
+         spaceBetween: 20,
+         navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+         },
+         breakpoints: {
+            // when window width is >= 320px
+            320: {
+               slidesPerView: 3,
+               spaceBetween: 10
+            },
+            // when window width is >= 480px
+            480: {
+               slidesPerView: 4,
+               spaceBetween: 10
+            },
+            // when window width is >= 640px
+            640: {
+               slidesPerView: 7,
+               spaceBetween: 20
+            }
+         }
+      });
+   </script>
+   <script>
 
-         <script>
-            var swiper = new Swiper(".mySwiper", {
-              slidesPerView: 7,
-              autoplay:true,
-              spaceBetween: 20,
-              navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-    // when window width is >= 320px
-    320: {
-      slidesPerView: 3,
-      spaceBetween: 10
-    },
-    // when window width is >= 480px
-    480: {
-      slidesPerView: 4,
-      spaceBetween: 10
-    },
-    // when window width is >= 640px
-    640: {
-      slidesPerView: 7,
-      spaceBetween: 20
-    }
-  }
-            });
-          </script>
+      var swiper = new Swiper(".full-banner-slider", {
+         slidesPerView: 1,
+         autoplay: true,
+         spaceBetween: 20,
+         navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+         },
+         breakpoints: {
+            // when window width is >= 320px
+            320: {
+               slidesPerView: 1,
+               spaceBetween: 10
+            },
+            // when window width is >= 480px
+            480: {
+               slidesPerView: 1,
+               spaceBetween: 10
+            },
+            // when window width is >= 640px
+            640: {
+               slidesPerView: 1,
+               spaceBetween: 20
+            }
+         }
+      });
+   </script>
+   <script>
+      function openBox() {
+         document.getElementById("slideBox").classList.add("active");
+      }
 
-<script>
-   function openBox() {
-       document.getElementById("slideBox").classList.add("active");
-   }
+      function closeBox() {
+         document.getElementById("slideBox").classList.remove("active");
+      }
+   </script>
+</body>
 
-   function closeBox() {
-       document.getElementById("slideBox").classList.remove("active");
-   }
-</script>
-   </body>
 </html>

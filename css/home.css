@@ -17,7 +17,12 @@
   padding: 0;
 }
 /* Navbar Styling */
-body {}
+body {
+
+
+  background-color:  #EFF9F4 !important; 
+
+}
 
 .navbar {
   display: flex;
@@ -1352,14 +1357,18 @@ height: 286px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 60px 0px 80px 0px;
+  padding: 80px 0px 80px 0px;
 }
 
 .text-content h3 {
-  font-size: 1.6rem;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 50px;
+  /* font-size: 1.6rem;
+
   font-weight: bold;
 
-  text-align: start;
+  text-align: start; */
 }
 
 .illustration {
@@ -1605,11 +1614,11 @@ height: 286px;
 }
 
 .testimonial-content blockquote {
-  font-size: 14px;
-  font-style: italic;
+  font-size: 20px;
+  /* font-style: italic; */
   color: #222222;
   overflow: hidden;
-  text-align: justify;
+  /* text-align: justify; */
   margin-top: 20px;
 }
 
@@ -1625,7 +1634,7 @@ height: 286px;
   cursor: pointer;
 }
 .test-carousel-main{
-    background: rgba(255, 255, 255, 0.53);
+    /* background: rgba(255, 255, 255, 0.53); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1787,13 +1796,13 @@ height: 286px;
 }
 .empower-card-item3 {
   background: #d9d9d9;
-  padding: 60px 50px;
+  padding: 60px 50px 100px 50px;
   transition: all ease-in-out 0.3s;
   height: 100%;
   position: relative;
   object-fit: cover;
-  background-position: center;
-  background-image: url('../Images/images-main/empowering/global.png');
+
+  background-image: url('../Images/global/1.jpg');
   }
 
   .empower-card-item3::after {
@@ -1826,18 +1835,24 @@ height: 286px;
 .empower-card-item2 h4,
 .empower-card-item3 h4 {
   color: black;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   margin-bottom: 15px;
   text-align: start;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 
+
 }
 
 .empower-card-item3 h4{
+
+  /* margin-bottom: 20px;
+  margin-top: 50px; */
+  font-weight: bold;
+  font-size: 50px;
   color: white;
-  font-size: 1.6rem;
-  margin-bottom: 15px;
+  /* font-size: 1.6rem;
+  margin-bottom: 15px; */
   text-align: start;
   font-weight: 600;
   font-family: "Inter", sans-serif;
@@ -1846,13 +1861,13 @@ height: 286px;
 
   }
 .empower-card-item3 h6{
-font-size: 20px;
+font-size: 24px;
 line-height: 28px;
 font-family: "Inter", sans-serif;
 margin-bottom: 15px;
 color: white;
 padding-left: 40px;
-font-weight: 250;
+font-weight: bold;
 position: relative; 
 z-index: 2;
 
@@ -1866,7 +1881,7 @@ z-index: 2;
   position: relative; 
   z-index: 2;
   color: white;
-  font-size: .8rem;
+  font-size: 20px;
 
   }
 
@@ -1958,11 +1973,11 @@ z-index: 2;
 }
 
 .form-main h4 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: white;
-  font-size: 36px;
-  line-height: 42px;
-  font-weight: 600;
+  font-size: 50px;
+  line-height: 56px;
+  font-weight: bold;
   /* margin-left: 21px;   */
 
 
@@ -2032,7 +2047,8 @@ z-index: 2;
 }
 
 .form-group button {
-  background: #FF6600;
+  background: #91C440;
+
 
   color: white;
   padding: 18px 10px;
@@ -2042,9 +2058,9 @@ z-index: 2;
   cursor: pointer;
 }
 
-.form-group button:hover {
+/* .form-group button:hover {
   background: #FF6600;
-}
+} */
 
 .form-group input,
 textarea::placeholder {
@@ -2085,13 +2101,14 @@ textarea::placeholder {
   ;
 
   /* height: 600px; */
-  padding: 60px 0px 40px 0px;
+  padding: 100px 0px 00px 0px;
 }
 
 .brands-section h4 {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.9rem;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 50px;
   /* margin-left: 10px; */
 }
 
@@ -2295,7 +2312,7 @@ img.drop-img {
 .swiper-slider-main{
   position: relative;
   height: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .swiper {
   width: 100%;
