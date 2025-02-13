@@ -1362,8 +1362,8 @@ height: 286px;
 
 .text-content h3 {
   font-weight: bold;
-  font-size: 50px;
-  margin-bottom: 50px;
+  font-size: 30px;
+  margin-bottom: 20px;
   /* font-size: 1.6rem;
 
   font-weight: bold;
@@ -1377,11 +1377,11 @@ height: 286px;
   overflow: hidden;
   display: flex;
   align-items: start;
-  justify-content: end;
+  justify-content: center;
 }
 
 .illustration img {
-  width: 100%;
+  width: 70%;
 
   object-fit: cover;
   transition: opacity 0.3s ease;/
@@ -1582,7 +1582,7 @@ height: 286px;
 
 .carousel-content {
   overflow: hidden;
-  padding: 0px 60px;
+  /* padding: 0px 60px; */
 }
 
 .testimonial-img {
@@ -1620,6 +1620,7 @@ height: 286px;
   overflow: hidden;
   text-align: start;
   margin-top: 20px;
+  padding-right: 150px;
 }
 
 .testimonial-navigation {
