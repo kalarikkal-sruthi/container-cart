@@ -122,15 +122,26 @@ margin-bottom: 0px;
 }
 
 .counter-number {
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 67px;
+    line-height: 67px;
     font-weight: 500;
 
 
-}.counter-number:first-child{
-    
+}
+.c-first{
+ 
 
-    background: linear-gradient(to right, #8CC44A, #2EBDE4); /* Gradient Colors */
+    background: linear-gradient(to right, #49BFB8, #49BFB8); 
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Hide solid color */
+    display: inline-block; /* Ensure proper rendering */
+}
+
+.c-second{
+    /* background: linear-gradient(180deg, #8CC44A 0%, #2EBDE4 100%); */
+
+
+    background: linear-gradient(to right, #8CC44A 0%, #2EBDE4 100%); /* Gradient Colors */
     -webkit-background-clip: text; /* Clip background to text */
     -webkit-text-fill-color: transparent; /* Hide solid color */
     display: inline-block; /* Ensure proper rendering */
@@ -143,8 +154,8 @@ margin-bottom: 0px;
 }
 
 .counter-label {
-    color: #000;
-    font-size: 12px;
+    color: #888888;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -233,7 +244,7 @@ margin-bottom: 0px;
 }
 
 .global-search-box{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .mission-head{
     margin-bottom: 30px;
