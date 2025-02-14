@@ -30,7 +30,7 @@ button.global-search{
    
 border-radius: 10px;
 border-width: 0.5px;
-padding: 6px 24px;
+padding: 8px 24px;
 color: white;
 color: white;
 font-size: 14px;
@@ -42,7 +42,7 @@ button.trusted-partner{
 
     border-radius: 10px;
     border-width: 0.5px;
-    padding: 6px 24px;
+    padding: 8px 24px;
     color: #000;
    
     font-size: 14px;
@@ -55,7 +55,7 @@ button.efficient-logistics{
 
     border-radius: 10px;
     border-width: 0.5px;
-    padding: 6px 24px;
+    padding: 8px 24px;
     color: #000;
    
     font-size: 14px;
@@ -122,8 +122,8 @@ margin-bottom: 0px;
 }
 
 .counter-number {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 48px;
+    line-height: 48px;
     font-weight: 500;
 
 
@@ -202,21 +202,27 @@ margin-bottom: 0px;
 }
 .global-search-counter{
     padding: 30px 30px 30px 30px;
-    background: white;border-radius: 33px;  height: 310px;
+    background: white;border-radius: 33px; 
+     /* height: 310px; */
 }
 .global-search-main{
     box-shadow: -15px 15px 34.8px 0px rgba(213, 227, 220, 1);
     border-radius: 30px;
-    height: 310px;
+    /* height: 310px; */
 
 }
 .global-seach-heading{
     padding: 30px 150px 30px 30px;
-    background: white;border-radius: 33px; height: 310px;
+    background: white;border-radius: 33px;
+     /* height: 310px; */
+}
+.global-seach-heading img{
+    width: 50px;
+    margin-bottom: 20px;
 }
 .global-seach-heading p{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 26px;
     margin-bottom: 30px;
 }
 .global-seach-heading h1{
@@ -346,17 +352,28 @@ margin-bottom: 0px;
  }
 
  .best-sellar-head h1{
-    color: #8CC44A;
+    color:  #000B1A;
+    
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 
+ }
+ .best-sellar-head-view-more {
+    text-align: end; color:  #000B1A;
+ }
+ .best-sellar-head-view-more h1 {
+   font-size: 12px;
  }
  .product-img {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
  }
+.product-img img{
+    box-shadow: -13px 13px 26.3px 0px #C0D0AC;
+    border-radius: 15px;
 
+}
 
  .full-banner-slider.swiper {
     width: 100%;
@@ -502,13 +519,15 @@ img.inverted-icon{
     width: 50px !important;
  }
  .product-head h6{
-    color: #d1d0d0;
+    color:  #888888;
+    
     font-size: 20px;
     margin: 15px 0px 10px 0px;
  }
 
  .product-head h1{
-    color: #04042c;
+    color:  #060606;
+
     font-size: 20px;
     font-weight: bold;
  }
