@@ -28,39 +28,39 @@ button.global-search{
     background-color: #8CC44A;
 
    
-border-radius: 10px;
+border-radius: 6px;
 border-width: 0.5px;
-padding: 8px 24px;
+padding: 8px 26px;
 color: white;
 color: white;
 font-size: 14px;
 margin-bottom: 8px;
-width: 170px;
+width: 180px;
 }
 button.trusted-partner{
     background: #F9F9F9;
 
-    border-radius: 10px;
+    border-radius: 6px;
     border-width: 0.5px;
-    padding: 8px 24px;
+    padding: 8px 26px;
     color: #000;
    
     font-size: 14px;
     margin-bottom: 8px;
-    width: 170px;
+    width: 180px;
 }
 
 button.efficient-logistics{
     background: #F9F9F9;
 
-    border-radius: 10px;
+    border-radius: 6px;
     border-width: 0.5px;
-    padding: 8px 24px;
+    padding: 8px 26px;
     color: #000;
    
     font-size: 14px;
     margin-bottom: 8px;
-    width: 170px;
+    width: 180px;
 }
 .sub-main-content h1{
     font-family: Inter;
