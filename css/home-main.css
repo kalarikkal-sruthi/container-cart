@@ -11,7 +11,7 @@
 }
 .sub-main{
     background-color: #04042C;
-    height: 90vh;
+    height: 86vh;
     display: flex
 ;
     align-items: end;
@@ -71,7 +71,7 @@ button.efficient-logistics{
 
 }
 .sub-main-content{
-    margin-bottom: 80px;
+    margin-bottom: 110px;
 }
 .sub-main-content p{
     font-family: Inter;
@@ -86,7 +86,7 @@ margin-bottom: 0px;
 }
 
 .sub-main-buttons{
-    margin-bottom: 80px;
+    margin-bottom: 110px;
 }
 .header-img img{
     width: 250px;
@@ -540,5 +540,6 @@ img.inverted-icon{
     color:  #060606;
 
     font-size: 20px;
+    width: 56%;
     font-weight: bold;
  }
