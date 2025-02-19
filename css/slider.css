@@ -10,7 +10,7 @@
 }
 
 .section {
-    padding: 20px;
+    /* padding: 20px; */
     min-height: 100vh;
     background: lightblue;
     border: 1px solid #ccc;
