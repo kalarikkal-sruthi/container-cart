@@ -1362,7 +1362,7 @@ height: 286px;
 
 .text-content h3 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   margin-bottom: 20px;
   /* font-size: 1.6rem;
 
@@ -1536,7 +1536,7 @@ height: 286px;
 
 .benefit-content h4 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 22px;
   color: black;
 
 
@@ -1796,14 +1796,17 @@ height: 286px;
  
 }
 .empower-card-item3 {
-  background: #d9d9d9;
-  padding: 60px 50px 100px 50px;
-  transition: all ease-in-out 0.3s;
-  height: 100%;
-  position: relative;
-  object-fit: cover;
 
-  background-image: url('../Images/global/1.jpg');
+  background: #d9d9d9;
+padding: 60px 50px 100px 50px;
+transition: all ease-in-out 0.3s; /* Fixed transition property */
+height: 100%;
+position: relative;
+object-fit: cover;
+background-image: url(../Images/global/1.jpg);
+background-size: cover; /* Makes the image cover the full width */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat; /* Prevents tiling */
   }
 
   .empower-card-item3::after {
@@ -1811,10 +1814,10 @@ height: 286px;
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; opacity: 1;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with opacity */
-    opacity: 0; /* Initially, the overlay is hidden */
+    opacity: 1; /* Initially, the overlay is hidden */
     transition: opacity 0.3s ease; /* Smooth transition for opacity */
     pointer-events: none; /* Prevent interaction with the overlay */
  }
