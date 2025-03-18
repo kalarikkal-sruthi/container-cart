@@ -1,355 +1,1702 @@
-@media (max-width: 768px) {
+@media (max-width: 360px) {
+  .header-img img{
+    width: 150px;
+  }
+  .sub-main-content{
+    margin-bottom: 20px;
+  }
+  .sub-main-content p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .global-search{
+    margin: 0px;
+  }
+  .sub-main{
+    height: auto;
+  }
+  .sub-main-content h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .sub-main-buttons{
+    align-items: start;
+  }
+  .counter-container{
+    flex-wrap: wrap;
+  }
+  .counter-box{
+    flex: auto;
+  }
+  .heading h1{
+    font-size: 20px;
+  }
+  .header-menu img{
+    width: 18px;}
+  button.global-search{
+
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.trusted-partner{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.efficient-logistics{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .heading h1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+  }
+  .counter-container{
+    gap: 15px;
+    margin: 30px 0px;
+  }
+  .counter-name{
+    font-size: 14px;
+  }
+  .counter-img{
+    padding-top: 0px;
+    /* text-align: center; */
+  }
+  .counter-head h1{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .counter-para p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .counter-img img{
+    width: 30px;
+    padding-top: 10px;
+  }
+  .global-search-main{
+    margin-top: 30px;
+  }
+  .global-seach-heading{
+    padding: 20px;
+    /* margin-top: 30px; */
+  }
+  .global-seach-heading img{
+    width: 30px;
+    margin-bottom: 10px;
+  }
+  .global-seach-heading p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .global-seach-heading h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .global-search-counter{
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .counter-number{
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .heading p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .mission{
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+
+  }
+  .mission-head img{
+    width: 30px;
+  }
+  .m-head{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .mission-head {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.mission-para p{
+font-size: 14px;
+line-height: 20px;
+}
+.vision{
+  height: auto;
+  padding: 20px;
  
-    body {
-      font-size: 14px;
-    }
+
+}
+.vision-head img{
+  width: 30px;
+}
+.v-head{
+  font-size: 30px;
+  margin-left: 0px;
+}
+.vision-head {
+  display: flex
+;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.vision-para p{
+font-size: 14px;
+line-height: 20px;
+}
+
+.mission-vision{
+  margin-bottom: 30px;
+}
+.empower-card-item3{
+  padding: 20px;
+}
+.empower-card-item3 h4{
+  padding-left: 0px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.empower-card-item3 h6{
+  font-size: 20px;
+  line-height:26px ;
+}
+.empower-card-item3 p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.heading-unlock h1{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.heading-unlock-main{
+  margin: 30px 0px;
+}
+.counter-number-second{
+  font-size: 50px;
+  line-height: 56px;
+}
+.footer-logo{
+  text-align: center;
+}
+.footer-address{
+  margin-left: 30px;
+}
+.footer img{
+  width: 50%;
+}
+.footer p{
+  margin-bottom: 10px;
+}
+
+.form-main{
+  padding: 30px 0px;
+}
+.form-main h4{
+  font-size: 30px;
+  line-height: 36px;
+}
+.form-main p{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.form-card{
+  position: relative;
+  width: 100%;
+}
+.form-div{
+  padding: 20px;
+}
+
+.brands-section{
+  margin: 30px 0px; 
+  height: auto;
+  background: #eff9f4;
+  padding: 0px;
+}
+.brands-section h4{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.swiper-slider-main{
+  padding-bottom: 30px;
+}
+.best-sellar-main{
+  padding: 30px 0px 0px 0px;
+}
+.product-img img{
+  height: auto;
+}
+.best-sellar-head h1{
+  margin-bottom: 10px;
+}
+.product-img{
+  margin-bottom: 30px;
+}
+.product-head h6{
+  margin: 20px 0px 10px 0px;
+}
+.product-head h6 {
+  font-size: 18px;
+  margin: 20px 0px 10px 0px;
+}
+.product-head h1{
+  width: 100%;
+  font-size: 14px;
+}
+
+.full-banner-slider .swiper-slide .reach-content h1{
+  font-size: 20px;
+}
+.full-banner-slider .swiper-slide img{
+  height: auto;
+}
+
+.full-banner-slider .swiper-button-prev{
+  left: 10px;
+}
+.full-banner-slider .swiper-button-next{
+  right: 8px;
+}
+.full-banner-slider .swiper-button-next:after, .full-banner-slider .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.swiper-slider-main .swiper-button-next:after, .swiper-slider-main .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.logistic-section{
+  padding: 30px 0px;
+}
+.text-content h3{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.benefit-content h4{
+  font-size: 18px;
+}
+
+.list-items li:hover .benefit-content p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.testimonial-main{
+  padding: 30px 0px;
+}
+.testimonial-main-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.testimonial-main-heading p{
+  margin-bottom: 30px;
+}
+.testimonial-content-slider-button .swiper-button-next:after, .testimonial-content-slider-button .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.testimonial-content blockquote{
+  padding-right: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+img.inverted-icon{
+  width: 30px !important;
+  margin-top: 20px;
+}
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .header-img img{
+    width: 150px;
   }
-  
-  @media (max-width: 480px) {
-   
-    body {
-      font-size: 12px;
-    }
+  .sub-main-content{
+    margin-bottom: 20px;
   }
-  
-  
-  
-  /* Responsive Styling */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .actions {
-      align-items: center;
-    }
-  
-    .menu {
-      justify-content: center;
-    }
-  
-    .left-section {
-      flex-direction: row;
-      align-items: center;
-    }
-  
-    .menu {
-      margin-top: 40px;
-    }
+  .sub-main-content p{
+    font-size: 14px;
+    line-height: 20px;
   }
-  
-  
-  @media (max-width: 768px) {
-    .search-input {
-      /* width: 100%; */
-      padding-right: 60px;
-    }
-  
-    .camera-icon {
-      top: 20%;
-      right: 5px;
-    }
-  
-    .search-btn {
-      padding: 5px 10px;
-    }
+  .global-search{
+    margin: 0px;
   }
-  
-  @media (max-width: 576px) {
-    .search-input-container {
-      flex-direction: column;
-    }
-  
-    .search-input,
-    .search-btn {
-      /* width: 100%; */
-      max-width: 370px;
-    }
-  
-    .search-input,
-    .search-btn {
-      /* width: 100%; */
-      max-width: 350px;
-    }
-  
-    .search-btn {
-      position: static;
-      margin-top: 5px;
-      transform: none;
-    }
+  .sub-main{
+    height: auto;
   }
-  
-  
-  @media (max-width: 576px) {
-    .feature-box {
-      padding: 10px;
-    }
+  .sub-main-content h1{
+    font-size: 30px;
+    line-height: 36px;
   }
-  
-  @media (max-width: 576px) {
-    .main-heading {
-      font-size: 1.9rem;
-    }
-  
-    .home-content1 {
-      padding: 10px 15px;
-    }
-  
-    .ali-text {
-      font-size: 12px;
-    }
-  
-    .search-bar {
-      flex-direction: column;
-    }
-  
-    .search-bar input[type="text"] {
-      margin-bottom: 10px;
-    }
-  
-    .search-bar button {
-      width: 100%;
-    }
-  
-    .frequently-searched {
-      font-size: 12px;
-    }
-  
-    .frequently-searched-one {
-      font-size: 12px;
-  
-    }
-  
-    .frequently-searched .badge {
-      padding: 3px 8px;
-      font-size: 12px;
-    }
-  
-    .frequently-searched .frequently-one {
-      padding: 3px 8px;
-      font-size: 12px;
-    }
-  
-    .carosel-head2 {
-  
-      justify-content: center !important;
-      align-items: center !important;
-      text-align: center !important;
-    }
-  
-    .carosel-head h3 {
-      margin-left: 0px !important;
-    }
-  
-    .carosel-head2 h3::before {
-      left: -15px !important;
-    }
-  
-    .carosel-head2 h3 {
-      padding-left: 0px !important;
-    }
-  
-    .product-text {
-      text-align: start !important;
-      margin-left: 10px !important;
-    }
+  .sub-main-buttons{
+    align-items: start;
   }
-  
-  
-  @media (min-width: 360px) and (max-width: 576px) {
-    .menu {
-      display: none !important;
-    }
-  
-    .actions {
-      display: none !important;
-    }
-  
-    .main-header {
-      padding: 10px !important;
-    }
-  
-    .navbar {
-      display: block !important;
-      border-bottom: none !important;
-    }
-  
-    .mobile-menu-icon {
-      display: block !important;
-    }
-  
-    .left-section {
-      display: flex !important;
-      justify-content: space-between !important;
-    }
-  
-    .carosel-head {
-      padding: 30px 0px;
-    }
-  
-    .card-container2 {
-      padding: 30px 0px;
-    }
-  
-    .grid-section {
-      padding: 30px 0px;
-    }
-  
-    .benefit-section {
-      height: auto;
-  
-    }
-  
-    .social-medias {
-      justify-content: center;
-    }
+  .counter-container{
+    flex-wrap: wrap;
   }
-  
-  
-  @media (max-width: 768px) {
-    .card-grid {
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)) !important;
-    }
-  
-    .grid {
-      gap: 10px !important;
-    }
-  
-    .card.wide-card {
-      grid-column: span 1 !important;
-    }
-  
-    .card.tall-card {
-      grid-row: span 1 !important;
-    }
-  
-    .grid-section .container {
-      padding: 10px !important;
-      margin: 0 !important;
-      max-width: 98% !important;
-    }
-  
-    .carosel-head h3 {
-      margin-left: 30px !important;
-    }
-  
-    .carosel-head2 h3::before {
-      left: -15px !important;
-  
-    }
-  
-    .carosel-head2 h3 {
-      padding-left: 0px !important;
-    }
-  
-    .product-text {
-      text-align: start !important;
-      margin-left: 10px !important;
-  
-    }
-  
-    .benefit-section h3 {
-      margin-left: 20px !important;
-    }
+  .counter-box{
+    flex: auto;
   }
-  
-  
-  @media screen and (max-width: 915px) {
-    .cards-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .benefit-section .container {
-      padding-left: 10px !important;
-      padding-right: 10px !important;
-    }
-  
-    .logistic-container {
-      padding-left: 0px !important;
-    }
-  
-    .new-customers {
-      padding: 10px !important;
-    }
-  
-    .logistic-section {
-      padding: 30px !important;
-    }
-  
-    .benefit-card-main {
-      padding: 20px !important;
-    }
-  
-    .seller-text {
-      margin-left: auto !important;
-      margin-right: auto !important;
-      padding-left: 45px !important;
-      padding-right: 15px !important;
-  
-    }
-  
-    .empower-card-item3 p {
-      padding-left: 0px !important;
-    }
-  
-    .empower-card-item3 h6 {
-      padding-left: 0px !important;
-    }
+  .heading h1{
+    font-size: 20px;
   }
-  
-  
-  @media (max-width: 768px) {
-    .col-lg-6 h3 {
-      font-size: 1.9rem;
-    }
-  
-    .benefits-list li {
-      flex-direction: column;
-      align-items: flex-start;
-  
-  
-    }
-  
-    .icon-container {
-      margin-bottom: 10px;
-    }
-  
-    .testimonial-section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .testimonial-section-img {
-      margin-right: 10px;
-    }
-  
-    .testimonial-carousel {
-      margin-top: 30px;
-      width: 98vw !important;
-    }
-  
-    .testimonial-img {
-      width: 80vw !important;
-      margin-right: 0px !important;
-    }
-  
-    .empower-cards {
-      padding: 0px !important;
-    }
-  
-    .form-section {
-      height: 95vh !important;
-    }
-  
-    .footer {
-      text-align: center !important;
-      padding: 60px 0px;
-      /* padding-left: 40px !important; */
-    }
-  
-    .footer img {
-      width: 60% !important;
-    }
+  .header-menu img{
+    width: 18px;}
+  button.global-search{
+
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
   }
+  button.trusted-partner{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.efficient-logistics{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .heading h1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+  }
+  .counter-container{
+    gap: 0px;
+    margin: 30px 0px;
+  }
+  .counter-name{
+    font-size: 14px;
+  }
+  .counter-img{
+    padding-top: 0px;
+    /* text-align: center; */
+  }
+  .counter-head h1{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .counter-para p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .counter-img img{
+    width: 30px;
+    padding-top: 10px;
+  }
+  .global-search-main{
+    margin-top: 30px;
+  }
+  .global-seach-heading{
+    padding: 20px;
+    /* margin-top: 30px; */
+  }
+  .global-seach-heading img{
+    width: 30px;
+    margin-bottom: 10px;
+  }
+  .global-seach-heading p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .global-seach-heading h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .global-search-counter{
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .counter-number{
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .heading p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .mission{
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+
+  }
+  .mission-head img{
+    width: 30px;
+  }
+  .m-head{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .mission-head {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.mission-para p{
+font-size: 14px;
+line-height: 20px;
+}
+.vision{
+  height: auto;
+  padding: 20px;
+ 
+
+}
+.vision-head img{
+  width: 30px;
+}
+.v-head{
+  font-size: 30px;
+  margin-left: 0px;
+}
+.vision-head {
+  display: flex
+;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.vision-para p{
+font-size: 14px;
+line-height: 20px;
+}
+
+.mission-vision{
+  margin-bottom: 30px;
+}
+.empower-card-item3{
+  padding: 30px 0px ;
+}
+.empower-card-item3 h4{
+  padding-left: 0px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.empower-card-item3 h6{
+  font-size: 20px;
+  line-height:26px ;
+}
+.empower-card-item3 p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.heading-unlock h1{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.heading-unlock-main{
+  margin: 30px 0px;
+}
+.counter-number-second{
+  font-size: 50px;
+  line-height: 56px;
+}
+.footer-logo{
+  text-align: center;
+}
+.footer-address{
+  margin-left: 30px;
+}
+.footer img{
+  width: 30%;
+}
+.footer p{
+  margin-bottom: 10px;
+}
+
+.form-main{
+  padding: 30px 0px;
+}
+.form-main h4{
+  font-size: 30px;
+  line-height: 36px;
+}
+.form-main p{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.form-card{
+  position: relative;
+  width: 100%;
+}
+.form-div{
+  padding: 20px;
+}
+
+.brands-section{
+  margin: 30px 0px; 
+  height: auto;
+  background: #eff9f4;
+  padding: 0px;
+}
+.brands-section h4{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.swiper-slider-main{
+  padding-bottom: 30px;
+}
+.best-sellar-main{
+  padding: 30px 0px 0px 0px;
+}
+.product-img img{
+  height: auto;
+}
+.best-sellar-head h1{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.product-img{
+  margin-bottom: 30px;
+}
+.product-head h6{
+  margin: 20px 0px 10px 0px;
+}
+.product-head h6 {
+  font-size: 18px;
+  margin: 20px 0px 10px 0px;
+}
+.product-head h1{
+  width: 100%;
+  font-size: 14px;
+}
+
+.full-banner-slider .swiper-slide .reach-content h1{
+  font-size: 20px;
+}
+.full-banner-slider .swiper-slide img{
+  height: auto;
+}
+
+.full-banner-slider .swiper-button-prev{
+  left: 10px;
+}
+.full-banner-slider .swiper-button-next{
+  right: 8px;
+}
+.full-banner-slider .swiper-button-next:after, .full-banner-slider .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.swiper-slider-main .swiper-button-next:after, .swiper-slider-main .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.logistic-section{
+  padding: 30px 0px 0px 0px;
+}
+.text-content h3{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.benefit-content h4{
+  font-size: 18px;
+}
+
+.list-items li:hover .benefit-content p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.testimonial-main{
+  padding: 30px 0px;
+}
+.testimonial-main-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.testimonial-main-heading p{
+  margin-bottom: 30px;
+}
+.testimonial-content-slider-button .swiper-button-next:after, .testimonial-content-slider-button .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.testimonial-content blockquote{
+  padding-right: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+img.inverted-icon{
+  width: 30px !important;
+  margin-top: 20px;
+}
+.icon-container .material-icons{
+  font-size: 18px;
+}
+.list-items li:hover .material-icons{
+  font-size: 22px;
+}
+.form-group button{
+  margin-top: 0px;
+  font-size: 14px;
+  padding: 14px 8px;
+}
+.form-group input, textarea::placeholder{
+  font-size: 12px;
+  padding: 10px;
+}
+.form-group textarea{
+  font-size: 12px;
+  padding: 10px;
+}
+.testimonial-content h4{
+  font-size: 14px;
+}
+.testimonial-content p{
+  font-size: 12px;
+}
+}
+@media (min-width:480px) and (max-width:576px){
+  .header-img img{
+    width: 150px;
+  }
+  .sub-main-content{
+    margin-bottom: 20px;
+  }
+  .sub-main-content p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .global-search{
+    margin: 0px;
+  }
+  .sub-main{
+    height: auto;
+  }
+  .sub-main-content h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .sub-main-buttons{
+    align-items: start;
+  }
+  .counter-container{
+    flex-wrap: wrap;
+  }
+  .counter-box{
+    flex: auto;
+  }
+  .heading h1{
+    font-size: 20px;
+  }
+  .header-menu img{
+    width: 18px;}
+  button.global-search{
+
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.trusted-partner{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.efficient-logistics{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .heading h1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+  }
+  .counter-container{
+    gap: 15px;
+    margin: 30px 0px;
+  }
+  .counter-name{
+    font-size: 14px;
+  }
+  .counter-img{
+    padding-top: 0px;
+    /* text-align: center; */
+  }
+  .counter-head h1{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .counter-para p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .counter-img img{
+    width: 30px;
+    padding-top: 10px;
+  }
+  .global-search-main{
+    margin-top: 30px;
+  }
+  .global-seach-heading{
+    padding: 20px;
+    /* margin-top: 30px; */
+  }
+  .global-seach-heading img{
+    width: 30px;
+    margin-bottom: 10px;
+  }
+  .global-seach-heading p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .global-seach-heading h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .global-search-counter{
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .counter-number{
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .heading p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .mission{
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+
+  }
+  .mission-head img{
+    width: 30px;
+  }
+  .m-head{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .mission-head {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.mission-para p{
+font-size: 14px;
+line-height: 20px;
+}
+.vision{
+  height: auto;
+  padding: 20px;
+ 
+
+}
+.vision-head img{
+  width: 30px;
+}
+.v-head{
+  font-size: 30px;
+  margin-left: 0px;
+}
+.vision-head {
+  display: flex
+;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.vision-para p{
+font-size: 14px;
+line-height: 20px;
+}
+
+.mission-vision{
+  margin-bottom: 30px;
+}
+.empower-card-item3{
+  padding: 20px;
+}
+.empower-card-item3 h4{
+  padding-left: 0px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.empower-card-item3 h6{
+  font-size: 20px;
+  line-height:26px ;
+}
+.empower-card-item3 p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.heading-unlock h1{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.heading-unlock-main{
+  margin: 30px 0px;
+}
+.counter-number-second{
+  font-size: 50px;
+  line-height: 56px;
+}
+.footer-logo{
+  text-align: center;
+}
+.footer-address{
+  margin-left: 30px;
+}
+.footer img{
+  width: 50%;
+}
+.footer p{
+  margin-bottom: 10px;
+}
+
+.form-main{
+  padding: 30px 0px;
+}
+.form-main h4{
+  font-size: 30px;
+  line-height: 36px;
+}
+.form-main p{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.form-card{
+  position: relative;
+  width: 100%;
+}
+.form-div{
+  padding: 20px;
+}
+
+.brands-section{
+  margin: 30px 0px; 
+  height: auto;
+  background: #eff9f4;
+  padding: 0px;
+}
+.brands-section h4{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.swiper-slider-main{
+  padding-bottom: 30px;
+}
+.best-sellar-main{
+  padding: 30px 0px 0px 0px;
+}
+.product-img img{
+  height: auto;
+}
+.best-sellar-head h1{
+  margin-bottom: 10px;
+}
+.product-img{
+  margin-bottom: 30px;
+}
+.product-head h6{
+  margin: 20px 0px 10px 0px;
+}
+.product-head h6 {
+  font-size: 18px;
+  margin: 20px 0px 10px 0px;
+}
+.product-head h1{
+  width: 100%;
+  font-size: 14px;
+}
+
+.full-banner-slider .swiper-slide .reach-content h1{
+  font-size: 20px;
+}
+.full-banner-slider .swiper-slide img{
+  height: auto;
+}
+
+.full-banner-slider .swiper-button-prev{
+  left: 10px;
+}
+.full-banner-slider .swiper-button-next{
+  right: 8px;
+}
+.full-banner-slider .swiper-button-next:after, .full-banner-slider .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.swiper-slider-main .swiper-button-next:after, .swiper-slider-main .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.logistic-section{
+  padding: 30px 0px;
+}
+.text-content h3{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.benefit-content h4{
+  font-size: 18px;
+}
+
+.list-items li:hover .benefit-content p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.testimonial-main{
+  padding: 30px 0px;
+}
+.testimonial-main-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.testimonial-main-heading p{
+  margin-bottom: 30px;
+}
+.testimonial-content-slider-button .swiper-button-next:after, .testimonial-content-slider-button .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.testimonial-content blockquote{
+  padding-right: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+img.inverted-icon{
+  width: 30px !important;
+  margin-top: 20px;
+}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+  .header-img img{
+    width: 150px;
+  }
+  .sub-main-content{
+    margin-bottom: 20px;
+  }
+  .sub-main-content p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .global-search{
+    margin: 0px;
+  }
+  .sub-main{
+    height: auto;
+  }
+  .sub-main-content h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .sub-main-buttons{
+    align-items: start;
+  }
+  .counter-container{
+    flex-wrap: wrap;
+  }
+  .counter-box{
+    flex: auto;
+  }
+  .heading h1{
+    font-size: 20px;
+  }
+  .header-menu img{
+    width: 18px;}
+  button.global-search{
+
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.trusted-partner{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.efficient-logistics{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .heading h1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+  }
+  .counter-container{
+    gap: 15px;
+    margin: 30px 0px;
+  }
+  .counter-name{
+    font-size: 14px;
+  }
+  .counter-img{
+    padding-top: 0px;
+    /* text-align: center; */
+  }
+  .counter-head h1{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .counter-para p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .counter-img img{
+    width: 30px;
+    padding-top: 10px;
+  }
+  .global-search-main{
+    margin-top: 30px;
+  }
+  .global-seach-heading{
+    padding: 20px;
+    /* margin-top: 30px; */
+  }
+  .global-seach-heading img{
+    width: 30px;
+    margin-bottom: 10px;
+  }
+  .global-seach-heading p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .global-seach-heading h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .global-search-counter{
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .counter-number{
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .heading p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .mission{
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+
+  }
+  .mission-head img{
+    width: 30px;
+  }
+  .m-head{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .mission-head {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.mission-para p{
+font-size: 14px;
+line-height: 20px;
+}
+.vision{
+  height: auto;
+  padding: 20px;
+ 
+
+}
+.vision-head img{
+  width: 30px;
+}
+.v-head{
+  font-size: 30px;
+  margin-left: 0px;
+}
+.vision-head {
+  display: flex
+;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.vision-para p{
+font-size: 14px;
+line-height: 20px;
+}
+
+.mission-vision{
+  margin-bottom: 30px;
+}
+.empower-card-item3{
+  padding: 20px;
+}
+.empower-card-item3 h4{
+  padding-left: 0px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.empower-card-item3 h6{
+  font-size: 20px;
+  line-height:26px ;
+}
+.empower-card-item3 p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.heading-unlock h1{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.heading-unlock-main{
+  margin: 30px 0px;
+}
+.counter-number-second{
+  font-size: 50px;
+  line-height: 56px;
+}
+.footer-logo{
+  text-align: center;
+}
+.footer-address{
+  margin-left: 30px;
+}
+.footer img{
+  width: 50%;
+}
+.footer p{
+  margin-bottom: 10px;
+}
+
+.form-main{
+  padding: 30px 0px;
+}
+.form-main h4{
+  font-size: 30px;
+  line-height: 36px;
+}
+.form-main p{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.form-card{
+  position: relative;
+  width: 100%;
+}
+.form-div{
+  padding: 20px;
+}
+
+.brands-section{
+  margin: 30px 0px; 
+  height: auto;
+  background: #eff9f4;
+  padding: 0px;
+}
+.brands-section h4{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.swiper-slider-main{
+  padding-bottom: 30px;
+}
+.best-sellar-main{
+  padding: 30px 0px 0px 0px;
+}
+.product-img img{
+  height: auto;
+}
+.best-sellar-head h1{
+  margin-bottom: 10px;
+}
+.product-img{
+  margin-bottom: 30px;
+}
+.product-head h6{
+  margin: 20px 0px 10px 0px;
+}
+.product-head h6 {
+  font-size: 18px;
+  margin: 20px 0px 10px 0px;
+}
+.product-head h1{
+  width: 100%;
+  font-size: 14px;
+}
+
+.full-banner-slider .swiper-slide .reach-content h1{
+  font-size: 20px;
+}
+.full-banner-slider .swiper-slide img{
+  height: auto;
+}
+
+.full-banner-slider .swiper-button-prev{
+  left: 10px;
+}
+.full-banner-slider .swiper-button-next{
+  right: 8px;
+}
+.full-banner-slider .swiper-button-next:after, .full-banner-slider .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.swiper-slider-main .swiper-button-next:after, .swiper-slider-main .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.logistic-section{
+  padding: 30px 0px;
+}
+.text-content h3{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.benefit-content h4{
+  font-size: 18px;
+}
+
+.list-items li:hover .benefit-content p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.testimonial-main{
+  padding: 30px 0px;
+}
+.testimonial-main-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.testimonial-main-heading p{
+  margin-bottom: 30px;
+}
+.testimonial-content-slider-button .swiper-button-next:after, .testimonial-content-slider-button .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.testimonial-content blockquote{
+  padding-right: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+img.inverted-icon{
+  width: 30px !important;
+  margin-top: 20px;
+}
+
+  
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .header-img img{
+    width: 150px;
+  }
+  .sub-main-content{
+    margin-bottom: 20px;
+  }
+  .sub-main-content p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .global-search{
+    margin: 0px;
+  }
+  .sub-main{
+    height: auto;
+  }
+  .sub-main-content h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .sub-main-buttons{
+    align-items: start;
+  }
+  .counter-container{
+    flex-wrap: wrap;
+  }
+  .counter-box{
+    flex: auto;
+  }
+  .heading h1{
+    font-size: 20px;
+  }
+  .header-menu img{
+    width: 18px;}
+  button.global-search{
+
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.trusted-partner{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+
+  }
+  button.efficient-logistics{
+    font-size: 12px;
+    padding: 6px 16px;
+    width: 150px;
+  }
+  .vertical-line{
+    display: none;
+  }
+  .heading h1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+  }
+  .counter-container{
+    gap: 15px;
+    margin: 30px 0px;
+  }
+  .counter-name{
+    font-size: 14px;
+  }
+  .counter-img{
+    padding-top: 0px;
+    /* text-align: center; */
+  }
+  .counter-head h1{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+  .counter-para p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .counter-img img{
+    width: 30px;
+    padding-top: 10px;
+  }
+  .global-search-main{
+    margin-top: 30px;
+  }
+  .global-seach-heading{
+    padding: 20px;
+    /* margin-top: 30px; */
+  }
+  .global-seach-heading img{
+    width: 30px;
+    margin-bottom: 10px;
+  }
+  .global-seach-heading p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .global-seach-heading h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .global-search-counter{
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .counter-number{
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .heading p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .mission{
+    height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+
+  }
+  .mission-head img{
+    width: 30px;
+  }
+  .m-head{
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .mission-head {
+    display: flex
+;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.mission-para p{
+font-size: 14px;
+line-height: 20px;
+}
+.vision{
+  height: auto;
+  padding: 20px;
+ 
+
+}
+.vision-head img{
+  width: 30px;
+}
+.v-head{
+  font-size: 30px;
+  margin-left: 0px;
+}
+.vision-head {
+  display: flex
+;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.vision-para p{
+font-size: 14px;
+line-height: 20px;
+}
+
+.mission-vision{
+  margin-bottom: 30px;
+}
+.empower-card-item3{
+  padding: 20px;
+}
+.empower-card-item3 h4{
+  padding-left: 0px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.empower-card-item3 h6{
+  font-size: 20px;
+  line-height:26px ;
+}
+.empower-card-item3 p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.heading-unlock h1{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.heading-unlock-main{
+  margin: 30px 0px;
+}
+.counter-number-second{
+  font-size: 50px;
+  line-height: 56px;
+}
+.footer-logo{
+  text-align: center;
+}
+.footer-address{
+  margin-left: 30px;
+}
+.footer img{
+  width: 50%;
+}
+.footer p{
+  margin-bottom: 10px;
+}
+
+.form-main{
+  padding: 30px 0px;
+}
+.form-main h4{
+  font-size: 30px;
+  line-height: 36px;
+}
+.form-main p{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.form-card{
+  position: relative;
+  width: 100%;
+}
+.form-div{
+  padding: 20px;
+}
+
+.brands-section{
+  margin: 30px 0px; 
+  height: auto;
+  background: #eff9f4;
+  padding: 0px;
+}
+.brands-section h4{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.swiper-slider-main{
+  padding-bottom: 30px;
+}
+.best-sellar-main{
+  padding: 30px 0px 0px 0px;
+}
+.product-img img{
+  height: auto;
+}
+.best-sellar-head h1{
+  margin-bottom: 10px;
+}
+.product-img{
+  margin-bottom: 30px;
+}
+.product-head h6{
+  margin: 20px 0px 10px 0px;
+}
+.product-head h6 {
+  font-size: 18px;
+  margin: 20px 0px 10px 0px;
+}
+.product-head h1{
+  width: 100%;
+  font-size: 14px;
+}
+
+.full-banner-slider .swiper-slide .reach-content h1{
+  font-size: 20px;
+}
+.full-banner-slider .swiper-slide img{
+  height: auto;
+}
+
+.full-banner-slider .swiper-button-prev{
+  left: 10px;
+}
+.full-banner-slider .swiper-button-next{
+  right: 8px;
+}
+.full-banner-slider .swiper-button-next:after, .full-banner-slider .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.swiper-slider-main .swiper-button-next:after, .swiper-slider-main .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.logistic-section{
+  padding: 30px 0px;
+}
+.text-content h3{
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.benefit-content h4{
+  font-size: 18px;
+}
+
+.list-items li:hover .benefit-content p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.testimonial-main{
+  padding: 30px 0px;
+}
+.testimonial-main-heading h1{
+  font-size: 30px;
+  line-height: 36px;
+}
+.testimonial-main-heading p{
+  margin-bottom: 30px;
+}
+.testimonial-content-slider-button .swiper-button-next:after, .testimonial-content-slider-button .swiper-button-prev:after{
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.testimonial-content blockquote{
+  padding-right: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+img.inverted-icon{
+  width: 30px !important;
+  margin-top: 20px;
+}
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {}
+@media (min-width: 1201px) and (max-width: 1400px) {}
+
+@media (min-width: 1401px) {}

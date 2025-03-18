@@ -1804,7 +1804,7 @@ transition: all ease-in-out 0.3s; /* Fixed transition property */
 height: 100%;
 position: relative;
 object-fit: cover;
-background-image: url(../Images/global/1.jpg);
+background-image: url(../Images/image-main/global/1.jpg);
 background-size: cover; /* Makes the image cover the full width */
 background-position: center; /* Centers the image */
 background-repeat: no-repeat; /* Prevents tiling */
@@ -1951,7 +1951,7 @@ z-index: 2;
 .form-section {
   position: relative;
   /* Ensures the overlay is positioned correctly */
-  background-image: url('../Images/form/form.png');
+  background-image: url('../Images/image-main/form/form.png');
   width: 100%;
   height: 100%;
   background-color: #333;
@@ -2415,4 +2415,13 @@ list-style-type: none;
 .mobile-links ul li  a{
 color: black;
 font-size: 12px;
+  }
+
+  .footer-address a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-address a:hover{
+    color: white;
+    text-decoration: none;
   }
