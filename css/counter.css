@@ -17,14 +17,16 @@
 
 .countup {
     position: relative;
-    color: #91C440;
-   width: 25%;
-    border-right: 3px solid #DDDDDD;
+    /* color: #91C440; */
+   width: 50%;
+    /* border-right: 3px solid #DDDDDD; */
     display: flex;
     flex-direction: column;
     align-items: start;
     padding-left: 16px;
     animation: fadeIn 1s ease;
+    margin-bottom: 30px;
+   
 }
 
 @keyframes fadeIn {
@@ -50,13 +52,21 @@
     display: flex;
     animation: countAnimation 0.8s ease-in-out forwards;
     font-family: 'QB One Semi Bold';
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 400;
-    line-height: 44px;
+    line-height: 50px;
     /* width: 200px; */
     /* padding-left: 16px; */
-}
 
+    color: #49BFB8;
+    background: linear-gradient(to right,#2EBDE4,#91C440 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.span-title{
+    font-size: 20px;
+}
 @keyframes countAnimation {
     0% {
         transform: scale(0.5);

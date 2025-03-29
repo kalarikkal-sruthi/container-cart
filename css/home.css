@@ -544,10 +544,10 @@ body.scroll .parallax::before {
   display: flex;
   /* padding: 5px; */
   /* margin-top: 30px; */
-  justify-content: end;
+  /* justify-content: end;
   align-items: end;
-  text-align: end;
-  margin: auto;
+  text-align: end; */
+  /* margin: auto; */
 }
 
 
